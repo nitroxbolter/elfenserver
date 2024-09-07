@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Exploring Kindernia" startstorageid="30044" startstoragevalue="1">
+		<mission name="Find the way to join the isle" storageid="30045" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Discover the isle." />
+			<missionstate id="2" description="You found the entrance of the Isle." />
+		</mission>
+		<mission name="Discover the Village" storageid="30046" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Find the Village on Kindernia." />
+			<missionstate id="2" description="You founded Kindernia Village." />
+		</mission>
+		<mission name="Chain Quest" storageid="30047" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Finish the Chain Quest on Kindernia." />
+			<missionstate id="2" description="You manage to finish the Chain quest on Kindernia Isle." />
+		</mission>
+	</quest>
+	<quest name="Candylandia" startstorageid="78193" startstoragevalue="1">
+			<mission name="Pastry Decoration" storageid="78194" startvalue="1" endvalue="7">
+			<missionstate id="1" description="Find the pastry decorations around the isle, the first one is at north of Candis." />
+			<missionstate id="2" description="You founded the first pastry decoration, find the second one." />
+			<missionstate id="3" description="You founded the second pastry decoration, find the thirst one." />
+			<missionstate id="4" description="You founded the thirst pastry decoration, find the fourth one." />
+			<missionstate id="5" description="You founded the fourth pastry decoration, find the fifth one." />
+			<missionstate id="6" description="You founded the fifth pastry decoration, find the sixth one." />
+			<missionstate id="7" description="You founded the sixth pastry decoration, go back talk to Candis." />
+		</mission>
+		<mission name="Find the Boss room" storageid="78195" startvalue="1" endvalue="7">
+			<missionstate id="1" description="Use the teleport near Candis to start finding the boss room, be aware the candy monsters are raging!" />
+			<missionstate id="2" description="You finded the first isle, continue to see where it goes." />
+			<missionstate id="3" description="You discovered a new one, follow the path until find the boss room." />
+			<missionstate id="4" description="Thirst isle, the isle is so big and beautiful." />
+			<missionstate id="5" description="Some Nible Maw, defeat it!" />
+			<missionstate id="6" description="This big donut make me hungry!" />
+			<missionstate id="7" description="You discovered the boss room, you will now be able to use the teleport to come here directly next time." />
+		</mission>
+</quest>
+</quests>
+
