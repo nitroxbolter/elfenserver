@@ -68,7 +68,7 @@ monster.loot = {
 	{id = "plate armor", chance = 75500},
 	{id = "ultimate health potion", chance = 52220, maxCount = 7},
 	{id = "medusa shield", chance = 55500},
-	{id = "knight legs", chance = 25500},
+	{id = "Knight legs", chance = 25500},
 	{id = "gold ring", chance = 13500},
 	{id = "jade hammer", chance = 11500},
 	{id = "twiceslicer", chance = 17500},

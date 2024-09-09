@@ -74,7 +74,7 @@ monster.loot = {
 	{id = 28146, chance = 4100},
 	{id = 28148, chance = 1200},
 	{id = 28149, chance = 1600},
-	{id = "knight axe", chance = 7000},
+	{id = "Knight axe", chance = 7000},
 	{id = "ravager's axe", chance = 300},
 	{id = "yellow gem", chance = 5000},
 	{id = "boots of haste", chance = 1500},

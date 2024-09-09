@@ -46,20 +46,20 @@ monster.voices = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 40}, 
-	{id = 8472, chance = 11400, maxCount = 2}, 
-	{id = 7590, chance = 10300, maxCount = 2}, 
+	{id = 2152, chance = 100000, maxCount = 40},
+	{id = 8472, chance = 11400, maxCount = 2},
+	{id = 7590, chance = 10300, maxCount = 2},
 	{id = "stone skin amulet", chance = 4920},
-	{id = "knight legs", chance = 3250},
-	{id = 26793, chance = 900}, 
+	{id = "Knight legs", chance = 3250},
+	{id = 26793, chance = 900},
 	{id = 26795, chance = 2000},
 	{id = 26799, chance = 3400, maxCount = 2},
 	{id = 26798, chance = 8100, maxCount = 2},
 	{id = 26806, chance = 450},
-	{id = 26802, chance = 350}, 
+	{id = 26802, chance = 350},
 	{id = "steel boots", chance = 1123},
 	{id = "wand of inferno", chance = 2500},
-	{id = 26778, chance = 300},  
+	{id = 26778, chance = 300},
 	{id = 26800, chance = 4000, maxCount = 2}
 }
 

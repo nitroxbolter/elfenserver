@@ -114,7 +114,7 @@ function creatureSayCallback(cid, type, msg)
 		npcHandler:say("If you have any {azure} coin with you, let's have a look! Maybe I can offer you something in exchange.", cid)
 	elseif msgcontains(msg, 'azure') then
 		openShopWindow(cid, shop, onBuy, onSell)
-		npcHandler:say({"Stuff for all vocations, Seetheras and varruth for knights, netherwave, for sorcerers and druids and felsinger for paladins."}, cid)
+		npcHandler:say({"Stuff for all vocations, Seetheras and varruth for Knights, netherwave, for sorcerers and druids and felsinger for paladins."}, cid)
 	end
 	return true
 end

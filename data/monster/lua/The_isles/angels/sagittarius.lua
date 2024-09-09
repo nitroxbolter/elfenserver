@@ -77,7 +77,7 @@ monster.loot = {
 	{id = "blue crystal shard", chance = 6000},
 	{id = "blue crystal splinter", chance = 13000},
 	{id = "cyan crystal fragment", chance = 17000},
-	{id = "knight armor", chance = 4000},
+	{id = "Knight armor", chance = 4000},
 	{id = "white piece of cloth", chance = 4520},
 	{id = "red piece of cloth", chance = 1130},
 	{id = "giant sword", chance = 560},

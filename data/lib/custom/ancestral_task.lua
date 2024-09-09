@@ -14,9 +14,9 @@ task_monsters = {
     [13] = {name = "darklight", mons_list = {"bloated man-maggot", "converter", "darklight construct", "darklight emitter", "darklight matter", "darklight source", "darklight striker", "elder bloodjaw", "meandering mushroom", "mycobiontic beetle", "oozing carcass", "oozing corpus", "rotten man-maggot", "sopping carcass", "walking pillar", "wandering pillar"}, storage = 400041, amount = 350, exp = 55000000, pointsTask = {10, 6}, items = {{id = 28058, count = 1},{id = 27990, count = 1}}, monsters = "Kill all monsters on the Bakragore Area on Kilmaresh."},
     [14] = {name = "darklight", mons_list = {"bloated man-maggot", "converter", "darklight construct", "darklight emitter", "darklight matter", "darklight source", "darklight striker", "elder bloodjaw", "meandering mushroom", "mycobiontic beetle", "oozing carcass", "oozing corpus", "rotten man-maggot", "sopping carcass", "walking pillar", "wandering pillar"}, storage = 400042, amount = 350, exp = 78000000, pointsTask = {10, 6}, items = {{id = 28058, count = 1},{id = 27990, count = 1}}, monsters = "Kill all monsters on the Bakragore Area on Kilmaresh."},
     [15] = {name = "secret library", mons_list = {"animated feather", "biting book", "brain squid", "burning book", "cursed book", "energetic book", "energuardian of tales", "floating savant", "flying book", "guardian of tales", "icecold book", "ink blob", "knowledge elemental", "rage squid", "squid warden"}, storage = 400043, amount = 350, exp = 70000000, pointsTask = {10, 6}, items = {{id = 28058, count = 1},{id = 27990, count = 1}}, monsters = "Kill all monsters on Secret Library Area."},
-    [16] = {name = "soulwar", mons_list = {"bony sea evil", "brachiodemon", "branchy crawler", "capricious phantom", "cloak of terror", "courage leech", "distorted phantom", "druid's apparition", "hazardous phantom", "infernal demon", "infernal phantom", "knight's apparition", "many faces", "mould phantom", "paladin's apparition", "rotten golem", "sorcerer's apparition", "turbulent elemental", "vibrant phantom"}, storage = 400044, amount = 350, exp = 70000000, pointsTask = {10, 6}, items = {{id = 28058, count = 1},{id = 27990, count = 1}, {id = 26778, count = 3}, {id = 27894, count = 8}}, monsters = "Kill all monsters Soulwar Area."},
+    [16] = {name = "soulwar", mons_list = {"bony sea evil", "brachiodemon", "branchy crawler", "capricious phantom", "cloak of terror", "courage leech", "distorted phantom", "druid's apparition", "hazardous phantom", "infernal demon", "infernal phantom", "Knight's apparition", "many faces", "mould phantom", "paladin's apparition", "rotten golem", "sorcerer's apparition", "turbulent elemental", "vibrant phantom"}, storage = 400044, amount = 350, exp = 70000000, pointsTask = {10, 6}, items = {{id = 28058, count = 1},{id = 27990, count = 1}, {id = 26778, count = 3}, {id = 27894, count = 8}}, monsters = "Kill all monsters Soulwar Area."},
    }
- 
+
  task_daily = {
     [1] = {name = "plagirath", mons_list = {"plagirath"}, storage = 503001, amount = 1, exp = 18500000, pointsTask = {5, 4}, items = {{id = 2160, count = 12}}, monsters = "Kill Plagirath."},
     [2] = {name = "ushuriel", mons_list = {"ushuriel"}, storage = 503002, amount = 1, exp = 9000000, pointsTask = {3, 2}, items = {{id = 2160, count = 4}}, monsters = "Kill Ushuriel."},
@@ -29,18 +29,18 @@ task_monsters = {
     [9] = {name = "arodis saron", mons_list = {"arodis saron"}, storage = 503009, amount = 1, exp = 65000000, pointsTask = {10, 8}, items = {{id = 28033, count = 2}}, monsters = "Kill Arodis Saron on Arodis Quest."},
     [10] = {name = "mercurial mage", mons_list = {"mercurial mage"}, storage = 503010, amount = 1, exp = 65000000, pointsTask = {10, 8}, items = {{id = 28033, count = 2}}, monsters = "Kill Mercurial Mage on Mercurial Quest."},
     [11] = {name = "goshnar's megalomania", mons_list = {"goshnar's megalomania"}, storage = 503011, amount = 1, exp = 30000000, pointsTask = {8, 4}, items = {{id = 27344, count = 4}, {id = 27345, count = 1},  {id = 27346, count = 1}}, monsters = "Kill Goshnar's Megalomania on Kilmaresh."},
-} 
+}
 
- 
+
  task_storage = 480000
  task_sto_time = 480002
  task_time = 1
  taskd_storage = 480004
  time_daySto = 480005
- 
- 
+
+
  local ranks_task = {
- [{1, 40}] = "Rookie", 
+ [{1, 40}] = "Rookie",
  [{41, 100}] = "Bronze",
  [{101, 250}] = "Silver",
  [{251, 470}] = "Gold",
@@ -53,7 +53,7 @@ task_monsters = {
  [{6321, 9999}] = "Chaos",
  [{10000, math.huge}] = "Awakening"
  }
- 
+
  local RankSequence = {
  ["Rookie"] = 1,
  ["Bronze"] = 2,
@@ -68,13 +68,13 @@ task_monsters = {
  ["Chaos"] = 11,
  ["Awakening"] = 12
  }
- 
+
  function rankIsEqualOrHigher(myRank, RankCheck)
      local ret_1 = RankSequence[myRank]
      local ret_2 = RankSequence[RankCheck]
      return ret_1 >= ret_2
  end
- 
+
  function getTaskInfos(player)
     local player = Player(player)
     local taskInfo = task_monsters[player:getStorageValue(task_storage)]
@@ -92,11 +92,11 @@ function getTaskDailyInfo(player)
     end
     return taskInfo or false
 end
- 
- 
+
+
  function taskPoints_get(player)
     local points = 0
-    local accountId = player:getGuid() 
+    local accountId = player:getGuid()
     local resultId = db.storeQuery("SELECT `ancestral_points` FROM `players` WHERE `id` = " .. accountId)
     if resultId ~= false then
         points = result.getDataInt(resultId, "ancestral_points")
@@ -108,14 +108,14 @@ end
 
 
  function taskPoints_add(player, count)
-    local accountId = player:getGuid() 
+    local accountId = player:getGuid()
 
     db.query(string.format("UPDATE players SET ancestral_points = ancestral_points + %d WHERE id = %d", count, accountId))
 end
- 
+
  function taskPoints_remove(player, count)
-    local taskPoints = taskPoints_get(player) or 0 
-    local accountId = player:getGuid() 
+    local taskPoints = taskPoints_get(player) or 0
+    local accountId = player:getGuid()
 
     local newPoints = taskPoints - count
     if newPoints < 0 then
@@ -126,9 +126,9 @@ end
 end
 
 
- 
+
  function taskRank_get(player)
-    local accountId = player:getGuid() 
+    local accountId = player:getGuid()
     local points = 0
     local resultId = db.storeQuery("SELECT `ancestral_rank_points` FROM `players` WHERE `id` = " .. accountId)
     if resultId ~= false then
@@ -137,13 +137,13 @@ end
     end
     return points
  end
- 
+
  function taskRank_add(player, count)
-    local accountId = player:getGuid() 
+    local accountId = player:getGuid()
 
     db.query(string.format("UPDATE players SET ancestral_rank_points = ancestral_rank_points + %d WHERE id = %d", count, accountId))
 end
- 
+
  function getRankTask(player)
      local pontos = taskRank_get(player)
      local ret
@@ -154,7 +154,7 @@ end
      end
      return ret
  end
- 
+
  function getItemsFromTable(itemtable)
       local text = ""
       for v = 1, #itemtable do

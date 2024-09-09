@@ -14,7 +14,7 @@ function spell.onCastSpell(creature, var)
 	return combat:execute(creature, var)
 end
 
-spell:name("renegade knight")
+spell:name("renegade Knight")
 spell:words("##404")
 spell:blockWalls(true)
 spell:needLearn(true)

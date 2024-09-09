@@ -1,26 +1,26 @@
 local config = {
-    actionId = 42586, 
+    actionId = 42586,
     bossName = "king zelos",
     miniBossOne = "magnor mournbringer",
     miniBossTwo = "nargol the impaler",
-    miniBossThree = "the red knight",
+    miniBossThree = "the red Knight",
     miniBossFour = "rewar the bloody",
-    bossPosition = Position(848, 527, 9), 
-    minibossOnePosition = Position(868, 510, 9), 
-    minibossTwoPosition = Position(828, 510, 9), 
-    minibossThreePosition = Position(828, 543, 9), 
-    minibossFourPosition = Position(868, 543, 9), 
+    bossPosition = Position(848, 527, 9),
+    minibossOnePosition = Position(868, 510, 9),
+    minibossTwoPosition = Position(828, 510, 9),
+    minibossThreePosition = Position(828, 543, 9),
+    minibossFourPosition = Position(868, 543, 9),
     bossArea = {
-        fromPos = Position(815, 498, 9), 
-        toPos = Position(879, 560, 9), 
-        entrancePos = Position(868, 526, 9), 
-        exitPosition = Position(895, 527, 9) 
+        fromPos = Position(815, 498, 9),
+        toPos = Position(879, 560, 9),
+        entrancePos = Position(868, 526, 9),
+        exitPosition = Position(895, 527, 9)
     },
-    participantsAllowAnyCount = true, 
+    participantsAllowAnyCount = true,
     participantsPos = {
         Position(890, 527, 9),
         Position(890, 528, 9),
-        Position(890, 529, 9), 
+        Position(890, 529, 9),
         Position(890, 526, 9),
         Position(890, 525, 9),
         Position(891, 529, 9),
@@ -30,15 +30,15 @@ local config = {
         Position(891, 525, 9)
     },
     attempts = {
-        level = 100, 
-        storage = 739428, 
+        level = 100,
+        storage = 739428,
         seconds = 14400 -- 4 hours
     },
-    createTeleportPos = Position(838, 526, 9), 
-    teleportToPosition = Position(895, 527, 9), 
-    teleportRemoveSeconds = 60, 
-    kickParticipantAfterSeconds = 60 * 30, 
-    leverIds = {1945, 1946} 
+    createTeleportPos = Position(838, 526, 9),
+    teleportToPosition = Position(895, 527, 9),
+    teleportRemoveSeconds = 60,
+    kickParticipantAfterSeconds = 60 * 30,
+    leverIds = {1945, 1946}
 }
 
 local function getSpectators()
@@ -71,7 +71,7 @@ function kingZelosAction.onUse(player, item, fromPos, target, toPos, isHotkey)
                 player:sendCancelMessage(string.format("The player %s is not level %d.", participant:getName(), config.attempts.level))
                 return true
             end
-            participants[#participants +1] = participant    
+            participants[#participants +1] = participant
         end
     end
 

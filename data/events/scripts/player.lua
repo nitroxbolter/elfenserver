@@ -7,15 +7,15 @@ end
 
 function Player:onLook(thing, position, distance)
     local description = ""
-    
+
     if hasEventCallback(EVENT_CALLBACK_ONLOOK) then
         local callbackResult = EventCallback(EVENT_CALLBACK_ONLOOK, self, thing, position, distance, description)
-        
+
         if callbackResult then
             description = callbackResult
         end
     end
-    
+
     if thing:isCreature() then
         if thing:isPlayer() then
             local rankTask = getRankTask(thing)
@@ -24,7 +24,7 @@ function Player:onLook(thing, position, distance)
             end
         end
     end
-    
+
     self:sendTextMessage(MESSAGE_INFO_DESCR, description)
 end
 
@@ -253,7 +253,7 @@ function Player:onGainExperience(source, exp, rawExp)
     local pet_experience = pet:getStorageValue(pet_storage_experience)
     local pet_level = pet:getStorageValue(pet_storage_level)
     local petNextLevelExperience = calculateNextLevelExperience(pet_level)
-    local petExp = exp * 0.2 
+    local petExp = exp * 0.2
 
     pet_experience = pet_experience + petExp
 

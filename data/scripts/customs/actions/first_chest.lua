@@ -149,7 +149,7 @@ local config = {
     }
     },
     }
-    
+
     local firstItems = Action()
 
     function firstItems.onUse(player, item, fromPosition, target, toPosition, isHotkey)
@@ -178,7 +178,7 @@ local config = {
         backpack:addItem(targetVocation.container[i][1], targetVocation.container[i][2])
     end
     playSound(player, "open_chest.ogg")
-    player:setStorageValue(33735, 1) 
+    player:setStorageValue(33735, 1)
     return true
 end
 

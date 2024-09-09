@@ -29,7 +29,7 @@
 		<item name="dagger" chance="8500" />
 		<item name="double axe" chance="1500" />
 		<item name="plate armor" chance="4000" />
-		<item name="knight armor" chance="1200" />
+		<item name="Knight armor" chance="1200" />
 		<item name="Ron the Ripper's sabre" chance="100000" />
 	</loot>
 </monster>

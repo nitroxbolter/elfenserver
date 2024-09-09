@@ -1,78 +1,78 @@
 local event = {
     waves = {
-        [28326] = { 
+        [28326] = {
         monsters = {
             {"angry bloated man-maggot", "angry bloated man-maggot", "angry bloated man-maggot", "angry bloated man-maggot"},
             {"enraged bloated man-maggot", "enraged bloated man-maggot", "enraged bloated man-maggot"},
             {"furious bloated man-maggot", "furious bloated man-maggot", "furious bloated man-maggot"},
             {"savage bloated man-maggot", "savage bloated man-maggot"},
             {"wrathful bloated man-maggot"}
-        },        
+        },
             storage = 876547,
             waves = 5,
             name = "Bloated Man-Maggot"
         },
-        [28327] = { 
+        [28327] = {
         monsters = {
             {"angry converter", "angry converter", "angry converter", "angry converter"},
             {"enraged converter", "enraged converter", "enraged converter"},
             {"furious converter", "furious converter", "furious converter"},
             {"savage converter", "savage converter"},
             {"wrathful converter"}
-        },        
+        },
             storage = 876548,
             waves = 5,
             name = "Converter"
         },
-        [28328] = { 
+        [28328] = {
             monsters = {
                 {"angry darklight construct", "angry darklight construct", "angry darklight construct", "angry darklight construct"},
                 {"enraged darklight construct", "enraged darklight construct", "enraged darklight construct"},
                 {"furious darklight construct", "furious darklight construct", "furious darklight construct"},
                 {"savage darklight construct", "savage darklight construct"},
                 {"wrathful darklight construct"}
-            },        
+            },
                 storage = 876549,
                 waves = 5,
                 name = "Darklight Construct"
             },
-        [28329] = { 
+        [28329] = {
             monsters = {
                 {"angry darklight emitter", "angry darklight emitter", "angry darklight emitter", "angry darklight emitter"},
                 {"enraged darklight emitter", "enraged darklight emitter", "enraged darklight emitter"},
                 {"furious darklight emitter", "furious darklight emitter", "furious darklight emitter"},
                 {"savage darklight emitter", "savage darklight emitter"},
                 {"wrathful darklight emitter"}
-            },        
+            },
                 storage = 876550,
                 waves = 5,
                 name = "Darklight Emitter"
         },
-        [28330] = { 
+        [28330] = {
             monsters = {
                 {"angry darklight matter", "angry darklight matter", "angry darklight matter", "angry darklight matter"},
                 {"enraged darklight matter", "enraged darklight matter", "enraged darklight matter"},
                 {"furious darklight matter", "furious darklight matter", "furious darklight matter"},
                 {"savage darklight matter", "savage darklight matter"},
                 {"wrathful darklight matter"}
-            },        
+            },
                 storage = 876551,
                 waves = 5,
                 name = "Darklight Matter"
         },
-        [28331] = { 
+        [28331] = {
             monsters = {
                 {"angry darklight source", "angry darklight source", "angry darklight source", "angry darklight source"},
                 {"enraged darklight source", "enraged darklight source", "enraged darklight source"},
                 {"furious darklight source", "furious darklight source", "furious darklight source"},
                 {"savage darklight source", "savage darklight source"},
                 {"wrathful darklight source"}
-            },        
+            },
                 storage = 876552,
                 waves = 5,
                 name = "Darklight Source"
         },
-        [28332] = { 
+        [28332] = {
             monsters = {
                 {"angry darklight striker", "angry darklight striker", "angry darklight striker", "angry darklight striker"},
                 {"enraged darklight striker", "enraged darklight striker", "enraged darklight striker"},
@@ -84,7 +84,7 @@ local event = {
                 waves = 5,
                 name = "Darklight Striker"
         },
-        [28333] = { 
+        [28333] = {
             monsters = {
                 {"angry meandering mushroom", "angry meandering mushroom", "angry meandering mushroom", "angry meandering mushroom"},
                 {"enraged meandering mushroom", "enraged meandering mushroom", "enraged meandering mushroom"},
@@ -96,7 +96,7 @@ local event = {
                 waves = 5,
                 name = "Meandering Mushroom"
         },
-        [28334] = { 
+        [28334] = {
             monsters = {
                 {"angry mycobiontic beetle", "angry mycobiontic beetle", "angry mycobiontic beetle", "angry mycobiontic beetle"},
                 {"enraged mycobiontic beetle", "enraged mycobiontic beetle", "enraged mycobiontic beetle"},
@@ -108,7 +108,7 @@ local event = {
                 waves = 5,
                 name = "Mycobiontic Beetle"
         },
-        [28335] = { 
+        [28335] = {
             monsters = {
                 {"angry oozing carcass", "angry oozing carcass", "angry oozing carcass", "angry oozing carcass"},
                 {"enraged oozing carcass", "enraged oozing carcass", "enraged oozing carcass"},
@@ -120,7 +120,7 @@ local event = {
                 waves = 5,
                 name = "Oozing Carcass"
         },
-        [28336] = { 
+        [28336] = {
             monsters = {
                 {"angry oozing corpus", "angry oozing corpus", "angry oozing corpus", "angry oozing corpus"},
                 {"enraged oozing corpus", "enraged oozing corpus", "enraged oozing corpus"},
@@ -132,7 +132,7 @@ local event = {
                 waves = 5,
                 name = "Oozing Corpus"
         },
-        [28337] = { 
+        [28337] = {
             monsters = {
                 {"angry elder bloodjaw", "angry elder bloodjaw", "angry elder bloodjaw", "angry elder bloodjaw"},
                 {"enraged elder bloodjaw", "enraged elder bloodjaw", "enraged elder bloodjaw"},
@@ -144,7 +144,7 @@ local event = {
                 waves = 5,
                 name = "Elder Bloodjaw"
         },
-        [28338] = { 
+        [28338] = {
             monsters = {
                 {"angry rotten man-maggot", "angry rotten man-maggot", "angry rotten man-maggot", "angry rotten man-maggot"},
                 {"enraged rotten man-maggot", "enraged rotten man-maggot", "enraged rotten man-maggot"},
@@ -156,7 +156,7 @@ local event = {
                 waves = 5,
                 name = "Rotten Man-Maggot"
         },
-        [28339] = { 
+        [28339] = {
             monsters = {
                 {"angry sopping carcass", "angry sopping carcass", "angry sopping carcass", "angry sopping carcass"},
                 {"enraged sopping carcass", "enraged sopping carcass", "enraged sopping carcass"},
@@ -168,7 +168,7 @@ local event = {
                 waves = 5,
                 name = "Sopping Carcass"
         },
-        [28340] = { 
+        [28340] = {
             monsters = {
                 {"angry sopping corpus", "angry sopping corpus", "angry sopping corpus", "angry sopping corpus"},
                 {"enraged sopping corpus", "enraged sopping corpus", "enraged sopping corpus"},
@@ -180,7 +180,7 @@ local event = {
                 waves = 5,
                 name = "Sopping Corpus"
         },
-        [28341] = { 
+        [28341] = {
             monsters = {
                 {"angry walking pillar", "angry walking pillar", "angry walking pillar", "angry walking pillar"},
                 {"enraged walking pillar", "enraged walking pillar", "enraged walking pillar"},
@@ -192,7 +192,7 @@ local event = {
                 waves = 5,
                 name = "Walking Pillar"
         },
-        [28342] = { 
+        [28342] = {
             monsters = {
                 {"angry wandering pillar", "angry wandering pillar", "angry wandering pillar", "angry wandering pillar"},
                 {"enraged wandering pillar", "enraged wandering pillar", "enraged wandering pillar"},
@@ -202,7 +202,7 @@ local event = {
             },
                 storage = 876563,
                 waves = 5,
-                name = "Walking Pillar" 
+                name = "Walking Pillar"
         },
         [28346] = {
             monsters = {
@@ -232,7 +232,7 @@ local event = {
             monsters = {
                 {"angry branchy crawler", "angry branchy crawler", "angry branchy crawler", "angry branchy crawler"},
                 {"enraged branchy crawler", "enraged branchy crawler", "enraged branchy crawler"},
-                {"furious branchy crawler", "furious branchy crawler", "furious branchy crawler"},            
+                {"furious branchy crawler", "furious branchy crawler", "furious branchy crawler"},
                 {"savage branchy crawler", "savage branchy crawler"},
                 {"wrathful branchy crawler"},
             },
@@ -268,11 +268,11 @@ local event = {
             monsters = {
                 {"angry courage leech", "angry courage leech", "angry courage leech", "angry courage leech"},
                 {"enraged courage leech", "enraged courage leech", "enraged courage leech"},
-                {"furious courage leech", "furious courage leech", "furious courage leech"},            
+                {"furious courage leech", "furious courage leech", "furious courage leech"},
                 {"savage courage leech", "savage courage leech"},
                 {"wrathful courage leech"},
             },
-                storage = 876569,    
+                storage = 876569,
                 waves = 5,
                 name = "Courage Leech"
             },
@@ -283,7 +283,7 @@ local event = {
                 {"furious distorted phantom", "furious distorted phantom", "furious distorted phantom"},
                 {"savage distorted phantom", "savage distorted phantom"},
                 {"wrathful distorted phantom"},
-            },                
+            },
                 storage = 876570,
                 waves = 5,
                 name = "Distorted Phantom"
@@ -291,7 +291,7 @@ local event = {
         [28353] = {
             monsters = {
                 {"angry druid's apparition", "angry druid's apparition", "angry druid's apparition", "angry druid's apparition"},
-                {"enraged druid's apparition", "enraged druid's apparition", "enraged druid's apparition"},            
+                {"enraged druid's apparition", "enraged druid's apparition", "enraged druid's apparition"},
                 {"furious druid's apparition", "furious druid's apparition", "furious druid's apparition"},
                 {"savage druid's apparition", "savage druid's apparition"},
                 {"wrathful druid's apparition"},
@@ -311,7 +311,7 @@ local event = {
                 storage = 876572,
                 waves = 5,
                 name = "Hazardous Phantom"
-            },  
+            },
         [28355] = {
             monsters = {
                 {"angry infernal demon", "angry infernal demon", "angry infernal demon", "angry infernal demon"},
@@ -338,25 +338,25 @@ local event = {
                 },
         [28357] = {
             monsters = {
-                {"angry knight's apparition", "angry knight's apparition", "angry knight's apparition", "angry knight's apparition"},
-                {"enraged knight's apparition", "enraged knight's apparition", "enraged knight's apparition"},
-                {"furious knight's apparition", "furious knight's apparition", "furious knight's apparition"},
-                {"savage knight's apparition", "savage knight's apparition"},
-                {"wrathful knight's apparition"},
+                {"angry Knight's apparition", "angry Knight's apparition", "angry Knight's apparition", "angry Knight's apparition"},
+                {"enraged Knight's apparition", "enraged Knight's apparition", "enraged Knight's apparition"},
+                {"furious Knight's apparition", "furious Knight's apparition", "furious Knight's apparition"},
+                {"savage Knight's apparition", "savage Knight's apparition"},
+                {"wrathful Knight's apparition"},
             },
                 storage = 876575,
                 waves = 5,
-                name = "Knight's Apparition"
+                name = "Knight's apparition"
             },
         [28358] = {
             monsters = {
                 {"angry many faces", "angry many faces", "angry many faces", "angry many faces"},
                 {"enraged many faces", "enraged many faces", "enraged many faces"},
-                {"furious many faces", "furious many faces", "furious many faces"},            
+                {"furious many faces", "furious many faces", "furious many faces"},
                 {"savage many faces", "savage many faces"},
                 {"wrathful many faces"},
             },
-                storage = 876576,    
+                storage = 876576,
                 waves = 5,
                 name = "Many Faces"
             },
@@ -393,7 +393,7 @@ local event = {
                 {"wrathful rotten golem"},
             },
                 storage = 876579,
-                waves = 5,  
+                waves = 5,
                 name = "Rotten Golem"
             },
         [28362] = {
@@ -411,12 +411,12 @@ local event = {
         [28363] = {
             monsters = {
                 {"angry turbulent elemental", "angry turbulent elemental", "angry turbulent elemental", "angry turbulent elemental"},
-                {"enraged turbulent elemental", "enraged turbulent elemental", "enraged turbulent elemental"},            
+                {"enraged turbulent elemental", "enraged turbulent elemental", "enraged turbulent elemental"},
                 {"furious turbulent elemental", "furious turbulent elemental", "furious turbulent elemental"},
                 {"savage turbulent elemental", "savage turbulent elemental"},
                 {"wrathful turbulent elemental"},
-            },  
-                storage = 876581,    
+            },
+                storage = 876581,
                 waves = 5,
                 name = "Turbulent Elemental"
             },
@@ -427,9 +427,9 @@ local event = {
                 {"furious vibrant phantom", "furious vibrant phantom", "furious vibrant phantom"},
                 {"savage vibrant phantom", "savage vibrant phantom"},
                 {"wrathful vibrant phantom"},
-            },  
+            },
                 storage = 876582,
-                waves = 5,  
+                waves = 5,
                 name = "Vibrant Phantom"
             },
 
@@ -548,7 +548,7 @@ local function checkAndStartWave(player, item)
         addEvent(function()
             player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Soulpit has been started.")
             startNextWave()
-        end, 5000) 
+        end, 5000)
         return true
     end
     event.currentItem = nil
@@ -568,7 +568,7 @@ local config = {
         Position(645, 1209, 8)
     },
     spawnArea = {
-    fromPos = Position(581, 1184, 8), 
+    fromPos = Position(581, 1184, 8),
     toPos = Position(613, 1207, 8)
     },
     entranceArea = Position(595, 1202, 8),
@@ -597,7 +597,7 @@ function soulPit.onUse(player, item, fromPos, target, toPos, isHotkey)
                 player:sendCancelMessage("Only the first participant can pull the lever.")
                 return true
             end
-            participants[#participants +1] = participant  
+            participants[#participants +1] = participant
         end
     end
 
@@ -613,7 +613,7 @@ function soulPit.onUse(player, item, fromPos, target, toPos, isHotkey)
     local itemId = event.waves[item:getId()]
     local spectators = Game.getSpectators(Position(31588, 32269, 8), false, true, 10, 10, 10, 10)
     if event.waves[item:getId()] and target:getActionId() == config.actionId then
-        target:transform(28241) 
+        target:transform(28241)
         if checkAndStartWave(player, item) then
             for i = 5, 1, -1 do
                 addEvent(function(currentCount)

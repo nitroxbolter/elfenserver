@@ -61,14 +61,14 @@
 		<item name="dwarven ring" chance="2560" />
 		<item name="fire axe" chance="310" />
 		<item name="war axe" chance="120" />
-		<item name="knight legs" chance="310" />
+		<item name="Knight legs" chance="310" />
 		<item name="black shield" chance="3710" />
 		<item name="brown mushroom" countmax="2" chance="15170" />
 		<item name="iron ore" chance="5280" />
 		<item name="chaos mace" chance="160" />
 		<item name="spiked squelcher" chance="420" />
 		<item name="great mana potion" chance="11240" />
-		<item name="fiery knight axe" chance="1200" />
+		<item name="fiery Knight axe" chance="1200" />
 		<item name="terra boots" chance="780" />
 		<item name="ultimate health potion" chance="10250" />
 		<item name="small topaz" chance="10200" />

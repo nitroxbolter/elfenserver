@@ -73,7 +73,7 @@ monster.loot = {
 	{id = "strong mana potion", chance = 15000, maxCount = 2},
 	{id = "great mana potion", chance = 15920, maxCount = 2},
 	{id = "great health potion", chance = 15000, maxCount = 2},
-	{id = "knight armor", chance = 1000},
+	{id = "Knight armor", chance = 1000},
 	{id = "royal helmet", chance = 300},
 	{id = "titan axe", chance = 2600},
 	{id = "glorious axe", chance = 1870},

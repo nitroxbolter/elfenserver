@@ -56,7 +56,7 @@
 		<skill id="9" multiplier="1.1" />
 		<skill id="10" multiplier="1.1" />
 	</vocation>
-	<vocation id="4" clientid="1" name="Knight" description="a knight" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3" gainhpamount="5" gainmanaticks="6" gainmanaamount="5" manamultiplier="3.0" attackspeed="2000" basespeed="220" soulmax="100" gainsoulticks="120" fromvoc="4">
+	<vocation id="4" clientid="1" name="Guerreiro" description="a Guerreiro" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3" gainhpamount="5" gainmanaticks="6" gainmanaamount="5" manamultiplier="3.0" attackspeed="2000" basespeed="220" soulmax="100" gainsoulticks="120" fromvoc="4">
 		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
 		<skill id="0" multiplier="1.1" />
 		<skill id="1" multiplier="1.1" />
@@ -112,7 +112,7 @@
 		<skill id="9" multiplier="1.1" />
 		<skill id="10" multiplier="1.1" />
 	</vocation>
-	<vocation id="8" clientid="1" name="Elite Knight" description="an elite knight" gaincap="25" gainhp="15" gainmana="5" gainhpticks="2" gainhpamount="10" gainmanaticks="4" gainmanaamount="10" manamultiplier="3.0" attackspeed="2000" basespeed="220" soulmax="200" gainsoulticks="15" fromvoc="4">
+	<vocation id="8" clientid="1" name="Barbaro" description="an Barbaro" gaincap="25" gainhp="15" gainmana="5" gainhpticks="2" gainhpamount="10" gainmanaticks="4" gainmanaamount="10" manamultiplier="3.0" attackspeed="2000" basespeed="220" soulmax="200" gainsoulticks="15" fromvoc="4">
 		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
 		<skill id="0" multiplier="1.1" />
 		<skill id="1" multiplier="1.1" />

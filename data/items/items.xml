@@ -3566,7 +3566,7 @@
 		<attribute key="weaponType" value="axe" />
 		<attribute key="extradef" value="1" />
 	</item>
-	<item id="2430" article="a" name="knight axe">
+	<item id="2430" article="a" name="Knight axe">
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="33" />
@@ -11214,7 +11214,7 @@
 		<attribute key="fluidSource" value="water" />
 	</item>
 	<item id="6391" article="a" name="nightmare shield">
-		<attribute key="description" value="It was crafted by the ancient order of the nightmare knights." />
+		<attribute key="description" value="It was crafted by the ancient order of the nightmare knight." />
 		<attribute key="weight" value="3200" />
 		<attribute key="defense" value="37" />
 		<attribute key="weaponType" value="shield" />
@@ -11335,7 +11335,7 @@
 	</item>
 	<item id="6498" article="a" name="firefly" />
 	<item id="6499" article="a" name="certificate">
-		<attribute key="description" value="You have mastered the Dream Challenge and may apply for joining the order of the Nightmare Knights." />
+		<attribute key="description" value="You have mastered the Dream Challenge and may apply for joining the order of the Nightmare knight." />
 		<attribute key="weight" value="150" />
 	</item>
 	<item id="6500" name="demonic essence">
@@ -13734,7 +13734,7 @@
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2429" />
 	</item>
-	<item id="7750" article="a" name="fiery knight axe">
+	<item id="7750" article="a" name="fiery Knight axe">
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="27" />
@@ -13911,7 +13911,7 @@
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2429" />
 	</item>
-	<item id="7769" article="an" name="icy knight axe">
+	<item id="7769" article="an" name="icy Knight axe">
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="27" />
@@ -14410,7 +14410,7 @@
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2429" />
 	</item>
-	<item id="7860" article="an" name="earth knight axe">
+	<item id="7860" article="an" name="earth Knight axe">
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="27" />
@@ -14575,7 +14575,7 @@
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2429" />
 	</item>
-	<item id="7875" article="an" name="energy knight axe">
+	<item id="7875" article="an" name="energy Knight axe">
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="27" />
@@ -17908,7 +17908,7 @@
 		<attribute key="duration" value="72000" />
 	</item>
 	<item id="9992" name="rotworm stew">
-		<attribute key="description" value="It's hot, beefy and delicious. The perfect food for knights." />
+		<attribute key="description" value="It's hot, beefy and delicious. The perfect food for knight." />
 		<attribute key="weight" value="1200" />
 	</item>
 	<item id="9993" name="hydra tongue salad">
@@ -42842,7 +42842,7 @@
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="manaleechamount" value="1"/>
-		<attribute key="lifeleechamount" value="2"/> 
+		<attribute key="lifeleechamount" value="2"/>
 	</item>
 	<item id="27477" article="a" name="grand sanguine coil">
 		<attribute key="weaponType" value="wand"/>
@@ -42854,7 +42854,7 @@
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="manaleechamount" value="2"/>
-		<attribute key="lifeleechamount" value="3"/> 
+		<attribute key="lifeleechamount" value="3"/>
 	</item>
 	<item id="27478" name="sanguine boots">
 		<attribute key="absorbpercentphysical" value="2"/>
@@ -42875,7 +42875,7 @@
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="manaleechamount" value="1"/>
-		<attribute key="lifeleechamount" value="2"/> 
+		<attribute key="lifeleechamount" value="2"/>
 	</item>
 	<item id="27480" article="a" name="grand sanguine rod">
 		<attribute key="weaponType" value="wand"/>
@@ -42887,7 +42887,7 @@
 		<attribute key="range" value="6"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="manaleechamount" value="2"/>
-		<attribute key="lifeleechamount" value="3"/> 
+		<attribute key="lifeleechamount" value="3"/>
 	</item>
 	<item id="27481" name="sanguine galoshes">
 		<attribute key="absorbpercentphysical" value="2"/>
@@ -43403,99 +43403,99 @@
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27608" name="Legendary Exotic Kaiser Lv1">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27609" name="Legendary Exotic Kaiser Lv2">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27610" name="Legendary Exotic Kaiser Lv3">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27611" name="Legendary Exotic Kaiser Lv4">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27612" name="Legendary Exotic Kaiser Lv5">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 2% Chance to summon&#10;a monster that fight's with you for 25 seconds and increase melee skill by 3." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27613" name="Legendary Exotic Kaiser Lv6">
-	<attribute key="description" value="Activating this card for Knight's: 2% Chance to summon a monster that fight's&#10;with you for 25 seconds and increase melee skill by 3." />
+	<attribute key="description" value="Activating this card for knight's: 2% Chance to summon a monster that fight's&#10;with you for 25 seconds and increase melee skill by 3." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27614" name="Legendary Chaos Kaiser Lv1">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27615" name="Legendary Chaos Kaiser Lv2">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27616" name="Legendary Chaos Kaiser Lv3">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27617" name="Legendary Chaos Kaiser Lv4">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27618" name="Legendary Chaos Kaiser Lv5">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27619" name="Legendary Chaos Kaiser Lv6">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 3% Chance to summon&#10;a monster that fight's with you for 45 seconds and increase melee skill by 6." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27620" name="Legendary Abyssal Kaiser Lv1">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27621" name="Legendary Abyssal Kaiser Lv2">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27622" name="Legendary Abyssal Kaiser Lv3">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27623" name="Legendary Abyssal Kaiser Lv4">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27624" name="Legendary Abyssal Kaiser Lv5">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 4% Chance to summon&#10;a monster that fight's with you for 65 seconds and increase melee skill by 9." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27625" name="Legendary Abyssal Kaiser Lv6">
-	<attribute key="description" value="Activating this card for Knight's: 4% Chance to summon a monster that fight's&#10;with you for 65 seconds and increase melee skill by 9." />
+	<attribute key="description" value="Activating this card for knight's: 4% Chance to summon a monster that fight's&#10;with you for 65 seconds and increase melee skill by 9." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27626" name="Legendary Ancestral Kaiser Lv1">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27627" name="Legendary Ancestral Kaiser Lv2">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27628" name="Legendary Ancestral Kaiser Lv3">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27629" name="Legendary Ancestral Kaiser Lv4">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27630" name="Legendary Ancestral Kaiser Lv5">
-	<attribute key="description" value="Upgrade this card to the level 6. Card enable for Knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
+	<attribute key="description" value="Upgrade this card to the level 6. Card enable for knight's 5% Chance to summon&#10;a monster that fight's with you for 90 seconds and increase melee skill by 15." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27631" name="Legendary Ancestral Kaiser Lv6">
-	<attribute key="description" value="Activating this card for Knight's: 5% Chance to summon a monster that fight's&#10;with you for 90 seconds and increase melee skill by 15." />
+	<attribute key="description" value="Activating this card for knight's: 5% Chance to summon a monster that fight's&#10;with you for 90 seconds and increase melee skill by 15." />
 	<attribute key="weight" value="10" />
 	</item>
 	<item id="27632" article="a" name="Bronze Deck">
@@ -43638,7 +43638,7 @@
 	<item id="27653" article="a" name="eldritch shield">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="absorbpercentphysical" value="4"/>
-		<attribute key="defense" value="39"/>	
+		<attribute key="defense" value="39"/>
 		<attribute key="weight" value="6600"/>
 	</item>
 	<item id="27654" article="a" name="eldritch claymore">
@@ -43648,7 +43648,7 @@
 		<attribute key="description" value="Element Fire: +50." />
 		<attribute key="skillsword" value="3"/>
 		<attribute key="attack" value="6"/>
-		<attribute key="defense" value="33"/>	
+		<attribute key="defense" value="33"/>
 		<attribute key="weight" value="8500"/>
 	</item>
 	<item id="27655" article="a" name="gilded eldritch claymore">
@@ -43658,7 +43658,7 @@
 		<attribute key="description" value="Element Fire: +52." />
 		<attribute key="skillsword" value="4"/>
 		<attribute key="attack" value="7"/>
-		<attribute key="defense" value="34"/>	
+		<attribute key="defense" value="34"/>
 		<attribute key="weight" value="8600"/>
 	</item>
 	<item id="27656" article="a" name="eldritch warmace">
@@ -45798,39 +45798,39 @@
 	</item>
 	<item id="28141" article="a" name="demon root">
 		<attribute key="weight" value="170" />
-		
+
 	</item>
 	<item id="28142" article="a" name="amber eye">
 		<attribute key="weight" value="100" />
-		
+
 	</item>
 	<item id="28143" article="a" name="petrified leaf">
 		<attribute key="weight" value="75" />
-		
+
 	</item>
 	<item id="28144" article="a" name="amber parasite">
 		<attribute key="weight" value="240" />
-		
+
 	</item>
 	<item id="28145" article="a" name="amber fish fin">
 		<attribute key="weight" value="125" />
-		
+
 	</item>
 	<item id="28146" article="a" name="root tentacle">
 		<attribute key="weight" value="135" />
-		
+
 	</item>
 	<item id="28147" article="a" name="strange inedible fruit">
 		<attribute key="weight" value="95" />
-		
+
 	</item>
 	<item id="28148" article="a" name="esophagus">
 		<attribute key="weight" value="140" />
-		
+
 	</item>
 	<item id="28149" article="a" name="drop of acid">
 		<attribute key="weight" value="110" />
-		
+
 	</item>
 	<item fromid="28150" toid="28157" name="root wall" />
 	<item id="28158" article="a" name="ramp" />
@@ -45864,58 +45864,58 @@
 	<item fromid="28255" toid="28258" name="root wall" />
 	<item id="28259" article="a" name="root hammer">
 		<attribute key="weight" value="1500" />
-		
+
 	</item>
 	<item id="28260" article="a" name="root sickle">
 		<attribute key="weight" value="675" />
-		
+
 	</item>
 	<item fromid="28261" toid="28178" name="stone pavement" />
 	<item fromid="28279" toid="28325" name="Exaltation Forge" />
 	<item id="28326" article="a" name="bloated man-maggot soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28327" article="a" name="converter soul core">
 		<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28328" article="a" name="darklight construct soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28329" article="a" name="darklight emitter soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28330" article="a" name="darklight matter soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28331" article="a" name="darklight source soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28332" article="a" name="darklight striker soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28333" article="a" name="meandering mushroom soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28334" article="a" name="mycobiontic beetle soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>
 		<attribute key="weight" value="320" />
-		
+
 	</item>
 	<item id="28335" article="a" name="oozing carcass soul core">
 	<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into another soul core."/>

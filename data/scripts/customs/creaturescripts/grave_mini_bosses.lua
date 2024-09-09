@@ -1,6 +1,6 @@
 local bosses = {
 	["magnor mournbringer"] = {storage = 81467},
-	["the red knight"] = {storage = 81468},
+	["the red Knight"] = {storage = 81468},
 	["nargol the impaler"] = {storage = 81469},
 	["rewar the bloody"] = {storage = 81470},
 }

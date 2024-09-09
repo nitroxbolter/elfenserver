@@ -30,7 +30,7 @@ local potions = {
 		condition = berserk,
 		vocations = {4, 8},
 		effect = CONST_ME_MAGIC_RED,
-		description = "Only knights may drink this potion.",
+		description = "Only Knights may drink this potion.",
 		text = "You feel stronger."
 	},
 	[7440] = { -- mastermind potion
@@ -52,7 +52,7 @@ local potions = {
 		vocations = {3, 4, 7, 8},
 		level = 50,
 		flask = 7634,
-		description = "Only knights and paladins of level 50 or above may drink this fluid."
+		description = "Only Knights and paladins of level 50 or above may drink this fluid."
 	},
 	[7589] = { -- strong mana potion
 		mana = {115, 185},
@@ -73,7 +73,7 @@ local potions = {
 		vocations = {4, 8},
 		level = 80,
 		flask = 7635,
-		description = "Only knights of level 80 or above may drink this fluid."
+		description = "Only Knights of level 80 or above may drink this fluid."
 	},
 	[7618] = { -- health potion
 		health = {125, 175},
@@ -96,7 +96,7 @@ local potions = {
 		vocations = {4, 8},
 		level = 130,
 		flask = 7635,
-		description = "Only knights of level 130 or above may drink this fluid."
+		description = "Only Knights of level 130 or above may drink this fluid."
 	},
 	[8474] = { -- antidote potion
 		antidote = true,
@@ -126,28 +126,28 @@ local potions = {
 		vocations = {4, 8},
 		level = 200,
 		flask = 7635,
-		description = "Only knights of level 200 or above may drink this fluid."
+		description = "Only Knights of level 200 or above may drink this fluid."
 	},
 	[26733] = { -- nimble life potion
 		health = {515, 685},
 		vocations = {3, 4, 7, 8},
 		level = 100,
 		flask = 26753,
-		description = "Only knights and paladins of level 100 or above may drink this fluid."
+		description = "Only Knights and paladins of level 100 or above may drink this fluid."
 	},
 	[26734] = { -- hazel life potion
 		health = {750, 920},
 		vocations = {3, 4, 7, 8},
 		level = 150,
 		flask = 26754,
-		description = "Only knights and paladins of level 150 or above may drink this fluid."
+		description = "Only Knights and paladins of level 150 or above may drink this fluid."
 	},
 	[26735] = { -- tumble life potion
 		health = {890, 1050},
 		vocations = {4, 8},
 		level = 200,
 		flask = 26755,
-		description = "Only knights of level 200 or above may drink this fluid."
+		description = "Only Knights of level 200 or above may drink this fluid."
 	},
 	[26736] = { -- nimble mana potion
 		mana = {160, 235},

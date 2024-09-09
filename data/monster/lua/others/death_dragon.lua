@@ -85,7 +85,7 @@ monster.loot = {
 	{id = 2547, chance = 15720, maxCount = 15}, -- power bolt
 	{id = 2466, chance = 850}, -- golden armor
 	{id = 11355, chance = 850}, -- spellweaver's robe
-	{id = 2476, chance = 4930}, -- knight armor
+	{id = 2476, chance = 4930}, -- Knight armor
 	{id = 8885, chance = 500}, -- divine plate
 	{id = 8889, chance = 530}, -- skullcracker armor
 	{id = 2144, chance = 21290, maxCount = 2}, -- black pearl

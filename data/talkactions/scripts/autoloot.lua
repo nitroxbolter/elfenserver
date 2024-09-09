@@ -67,7 +67,7 @@ function onSay(player, words, param)
         end
 
         player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, itemName .." was not found in the list.")
-    
+
     elseif action == "show" then
         local text = "-- Auto Loot List --\n"
         local count = 1
@@ -82,7 +82,7 @@ function onSay(player, words, param)
         if text == "" then
             text = "Empty"
         end
- 
+
         player:showTextDialog(27430, text, false)
     elseif action == "clear" then
         for i = AUTOLOOT_STORAGE_START, AUTOLOOT_STORAGE_END do
@@ -91,7 +91,7 @@ function onSay(player, words, param)
 
         player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "The autoloot list has been cleared.")
     else
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Use the commands: !autoloot {add, remove, show, clear}, example: !autoloot add, knight armor // !autoloot remove, knight armor. Max Entries: 10.")
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Use the commands: !autoloot {add, remove, show, clear}, example: !autoloot add, Knight armor // !autoloot remove, Knight armor. Max Entries: 10.")
     end
 
     return false

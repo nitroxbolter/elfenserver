@@ -73,7 +73,7 @@ monster.loot = {
 	{id = "strong mana potion", chance = 15000, maxCount = 2},
 	{id = "great mana potion", chance = 15920, maxCount = 2},
 	{id = "great health potion", chance = 15000, maxCount = 2},
-	{id = "Knight Axe", chance = 3000},
+	{id = "Knight axe", chance = 3000},
 	{id = "Mino Shield", chance = 2900},
 	{id = "Terra Boots", chance = 7000},
 	{id = "Terra Hood", chance = 6400},

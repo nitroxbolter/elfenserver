@@ -350,8 +350,8 @@ function Player.isDruid(self)
 	return table.contains({VOCATION.ID.DRUID, VOCATION.ID.ELDER_DRUID}, self:getVocation():getId())
 end
 
-function Player.isKnight(self)
-	return table.contains({VOCATION.ID.KNIGHT, VOCATION.ID.ELITE_KNIGHT}, self:getVocation():getId())
+function Player.isGuerreiro(self)
+	return table.contains({VOCATION.ID.Guerreiro, VOCATION.ID.Barbaro}, self:getVocation():getId())
 end
 
 function Player.isPaladin(self)
@@ -370,7 +370,7 @@ function Player.sendWeatherEffect(self, groundEffect, fallEffect, thunderEffect)
         fromPosition.z = Z
         position.z = Z
         tile = Tile(position)
-        if tile then 
+        if tile then
             fromPosition:sendDistanceEffect(position, fallEffect)
 			position:sendMagicEffect(groundEffect, self)
 			getGround = tile:getGround()

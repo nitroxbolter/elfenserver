@@ -30,9 +30,9 @@ addoninfo = {
 ['base hand of inquisition outfit'] = {cost = 0, items = {{26779,15}}, outfit_female = 1015, outfit_male = 1014, addon = 0, storageID = 133046},
 ['first hand of inquisition addon'] = {cost = 0, items = {{27234,1}}, outfit_female = 1015, outfit_male = 1014, addon = 1, storageID = 133047},
 ['second hand of inquisition addon'] = {cost = 0, items = {{27235,2}}, outfit_female = 1015, outfit_male = 1014, addon = 2, storageID = 133048},
-['base doom knight outfit'] = {cost = 0, items = {{26779,15}}, outfit_female = 1017, outfit_male = 1016, addon = 0, storageID = 133049},
-['first doom knight addon'] = {cost = 0, items = {{26779,1}}, outfit_female = 1017, outfit_male = 1016, addon = 1, storageID = 133050},
-['second doom knight addon'] = {cost = 0, items = {{26779,2}}, outfit_female = 1017, outfit_male = 1016, addon = 2, storageID = 133051},
+['base doom Knight outfit'] = {cost = 0, items = {{26779,15}}, outfit_female = 1017, outfit_male = 1016, addon = 0, storageID = 133049},
+['first doom Knight addon'] = {cost = 0, items = {{26779,1}}, outfit_female = 1017, outfit_male = 1016, addon = 1, storageID = 133050},
+['second doom Knight addon'] = {cost = 0, items = {{26779,2}}, outfit_female = 1017, outfit_male = 1016, addon = 2, storageID = 133051},
 ['base poltergeist outfit'] = {cost = 0, items = {{26779,15}}, outfit_female = 1038, outfit_male = 1037, addon = 0, storageID = 133052},
 ['first poltergeist addon'] = {cost = 0, items = {{27297,1}}, outfit_female = 1038, outfit_male = 1037, addon = 1, storageID = 133053},
 ['second poltergeist addon'] = {cost = 0, items = {{27298,1}}, outfit_female = 1038, outfit_male = 1037, addon = 2, storageID = 133054},
@@ -72,7 +72,7 @@ addoninfo = {
 
 
 }
-local o = {'small angel', 'everblight', 'herald', 'battle mage', 'discoverer', 'hand of inquisition', 'doom knight', 'poltergeist', 'dragon slayer', 'golden', 'revenant', 'astro warrior', 'astro mage', 'arodis', 'corrupted priest/archer/axe/club/sword/mage' }
+local o = {'small angel', 'everblight', 'herald', 'battle mage', 'discoverer', 'hand of inquisition', 'doom Knight', 'poltergeist', 'dragon slayer', 'golden', 'revenant', 'astro warrior', 'astro mage', 'arodis', 'corrupted priest/archer/axe/club/sword/mage' }
 function creatureSayCallback(cid, type, msg)
 local talkUser = cid
 

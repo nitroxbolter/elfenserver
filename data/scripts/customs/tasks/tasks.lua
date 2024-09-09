@@ -7,7 +7,7 @@ local RewardType = {
     Storage = 6,
     Teleport = 7,
   }
-  
+
   local Config = {
     TasksOpCode = 92,
     StoragePoints = 87613,
@@ -55,8 +55,8 @@ local RewardType = {
       [6320] = "Ascending",
       [9999] = "Chaos",
       [10000] = "Awakening"
-  
-  
+
+
     },
     Tasks = {
       --[[
@@ -259,7 +259,7 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 4},
           {Type = RewardType.Experience, BaseValue = 4000000},
           {Type = RewardType.Gold, BaseValue = 30000},
-          {Type = RewardType.Item, Id = 8855, Amount = 1}, 
+          {Type = RewardType.Item, Id = 8855, Amount = 1},
           {Type = RewardType.Item, Id = 7451, Amount = 1},
         }
       },
@@ -272,7 +272,7 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 4},
           {Type = RewardType.Experience, BaseValue = 3500000},
           {Type = RewardType.Gold, BaseValue = 25000},
-          {Type = RewardType.Item, Id = 2476, Amount = 1}, 
+          {Type = RewardType.Item, Id = 2476, Amount = 1},
           {Type = RewardType.Item, Id = 2477, Amount = 1},
           {Type = RewardType.Item, Id = 2475, Amount = 1},
         }
@@ -429,9 +429,9 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 6},
           {Type = RewardType.Experience, BaseValue = 12000000},
           {Type = RewardType.Gold, BaseValue = 45000},
-          {Type = RewardType.Item, Id = 2470, Amount = 1}, 
-          {Type = RewardType.Item, Id = 2472, Amount = 1}, 
-          {Type = RewardType.Item, Id = 2520, Amount = 1}, 
+          {Type = RewardType.Item, Id = 2470, Amount = 1},
+          {Type = RewardType.Item, Id = 2472, Amount = 1},
+          {Type = RewardType.Item, Id = 2520, Amount = 1},
         }
       },
       {
@@ -443,7 +443,7 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 6},
           {Type = RewardType.Experience, BaseValue = 10200000},
           {Type = RewardType.Gold, BaseValue = 65000},
-          {Type = RewardType.Item, Id = 22396, Amount = 3}, 
+          {Type = RewardType.Item, Id = 22396, Amount = 3},
           {Type = RewardType.Item, Id = 22397, Amount = 1},
         }
       },
@@ -490,8 +490,8 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 20},
           {Type = RewardType.Experience, BaseValue = 66000000},
           {Type = RewardType.Gold, BaseValue = 300000},
-          {Type = RewardType.Item, Id = 27234, Amount = 1}, 
-          {Type = RewardType.Item, Id = 27235, Amount = 2}, 
+          {Type = RewardType.Item, Id = 27234, Amount = 1},
+          {Type = RewardType.Item, Id = 27235, Amount = 2},
         }
       },
       {
@@ -503,10 +503,10 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 26000000},
           {Type = RewardType.Gold, BaseValue = 140000},
-          {Type = RewardType.Item, Id = 27149, Amount = 3}, 
-          {Type = RewardType.Item, Id = 27133, Amount = 5}, 
-          {Type = RewardType.Item, Id = 27137, Amount = 2}, 
-          {Type = RewardType.Item, Id = 27140, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27149, Amount = 3},
+          {Type = RewardType.Item, Id = 27133, Amount = 5},
+          {Type = RewardType.Item, Id = 27137, Amount = 2},
+          {Type = RewardType.Item, Id = 27140, Amount = 1},
         }
       },
       {
@@ -518,7 +518,7 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 7},
           {Type = RewardType.Experience, BaseValue = 23500000},
           {Type = RewardType.Gold, BaseValue = 110000},
-          {Type = RewardType.Item, Id = 26779, Amount = 3}, 
+          {Type = RewardType.Item, Id = 26779, Amount = 3},
         }
       },
       {
@@ -530,8 +530,8 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 20},
           {Type = RewardType.Experience, BaseValue = 130000000},
           {Type = RewardType.Gold, BaseValue = 110000},
-          {Type = RewardType.Item, Id = 26779, Amount = 20}, 
-          {Type = RewardType.Item, Id = 27297, Amount = 2}, 
+          {Type = RewardType.Item, Id = 26779, Amount = 20},
+          {Type = RewardType.Item, Id = 27297, Amount = 2},
           {Type = RewardType.Item, Id = 27298, Amount = 2},
         }
       },
@@ -544,10 +544,10 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 8},
           {Type = RewardType.Experience, BaseValue = 22000000},
           {Type = RewardType.Gold, BaseValue = 100000},
-          {Type = RewardType.Item, Id = 27990, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27990, Amount = 1},
           {Type = RewardType.Item, Id = 26780, Amount = 2},
           {Type = RewardType.Item, Id = 26778, Amount = 2},
-          {Type = RewardType.Item, Id = 26779, Amount = 5}, 
+          {Type = RewardType.Item, Id = 26779, Amount = 5},
         }
       },
       {
@@ -559,24 +559,24 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 25},
           {Type = RewardType.Experience, BaseValue = 225000000},
           {Type = RewardType.Gold, BaseValue = 110000},
-          {Type = RewardType.Item, Id = 26779, Amount = 20}, 
-          {Type = RewardType.Item, Id = 8932, Amount = 1}, 
+          {Type = RewardType.Item, Id = 26779, Amount = 20},
+          {Type = RewardType.Item, Id = 8932, Amount = 1},
           {Type = RewardType.Item, Id = 8903, Amount = 1},
         }
       },
       {
         RaceName = "Soulwar",
         Level = 500,
-        Monsters = {"Bony Sea Devil", "Brachiodemon", "Branchy Crawler", "Capricious Phantom", "Cloak Of Terror", "Courage Leech", "Distorted Phantom", "Druid's Apparition", "Knight's Apparition", "Rotten Golem", "Infernal Demon", "Turbulent Elemental", "Many Faces", "Sorcerer's Apparition", "Paladin's Apparition"},
+        Monsters = {"Bony Sea Devil", "Brachiodemon", "Branchy Crawler", "Capricious Phantom", "Cloak Of Terror", "Courage Leech", "Distorted Phantom", "Druid's Apparition", "Knight's apparition", "Rotten Golem", "Infernal Demon", "Turbulent Elemental", "Many Faces", "Sorcerer's Apparition", "Paladin's Apparition"},
         Rewards = {
           {Type = RewardType.Points, BaseValue = 8},
           {Type = RewardType.Ranking, BaseValue = 10},
           {Type = RewardType.Experience, BaseValue = 49800000},
           {Type = RewardType.Gold, BaseValue = 125000},
-          {Type = RewardType.Item, Id = 27990, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27990, Amount = 1},
           {Type = RewardType.Item, Id = 26780, Amount = 3},
           {Type = RewardType.Item, Id = 26778, Amount = 2},
-          {Type = RewardType.Item, Id = 26779, Amount = 5}, 
+          {Type = RewardType.Item, Id = 26779, Amount = 5},
         }
       },
       {
@@ -588,10 +588,10 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 11},
           {Type = RewardType.Experience, BaseValue = 41480000},
           {Type = RewardType.Gold, BaseValue = 115000},
-          {Type = RewardType.Item, Id = 27990, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27990, Amount = 1},
           {Type = RewardType.Item, Id = 26780, Amount = 3},
           {Type = RewardType.Item, Id = 26778, Amount = 2},
-          {Type = RewardType.Item, Id = 26779, Amount = 5}, 
+          {Type = RewardType.Item, Id = 26779, Amount = 5},
         }
       },
       {
@@ -603,11 +603,11 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 50},
           {Type = RewardType.Experience, BaseValue = 300000000},
           {Type = RewardType.Gold, BaseValue = 500000},
-          {Type = RewardType.Item, Id = 27353, Amount = 2}, 
-          {Type = RewardType.Item, Id = 27344, Amount = 4}, 
-          {Type = RewardType.Item, Id = 27346, Amount = 1}, 
-          {Type = RewardType.Item, Id = 27345, Amount = 1}, 
-          {Type = RewardType.Item, Id = 26779, Amount = 15}, 
+          {Type = RewardType.Item, Id = 27353, Amount = 2},
+          {Type = RewardType.Item, Id = 27344, Amount = 4},
+          {Type = RewardType.Item, Id = 27346, Amount = 1},
+          {Type = RewardType.Item, Id = 27345, Amount = 1},
+          {Type = RewardType.Item, Id = 26779, Amount = 15},
         }
       },
       {
@@ -619,8 +619,8 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 70},
           {Type = RewardType.Experience, BaseValue = 350000000},
           {Type = RewardType.Gold, BaseValue = 600000},
-          {Type = RewardType.Item, Id = 27446, Amount = 2}, 
-          {Type = RewardType.Item, Id = 26779, Amount = 30}, 
+          {Type = RewardType.Item, Id = 27446, Amount = 2},
+          {Type = RewardType.Item, Id = 26779, Amount = 30},
         }
       },
       {
@@ -632,8 +632,8 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 34000000},
           {Type = RewardType.Gold, BaseValue = 180000},
-          {Type = RewardType.Item, Id = 27703, Amount = 3}, 
-          {Type = RewardType.Item, Id = 27704, Amount = 2}, 
+          {Type = RewardType.Item, Id = 27703, Amount = 3},
+          {Type = RewardType.Item, Id = 27704, Amount = 2},
           {Type = RewardType.Item, Id = 27705, Amount = 1},
         }
       },
@@ -646,7 +646,7 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 34000000},
           {Type = RewardType.Gold, BaseValue = 180000},
-          {Type = RewardType.Item, Id = 27633, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27633, Amount = 1},
         }
       },
       {
@@ -658,7 +658,7 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 34000000},
           {Type = RewardType.Gold, BaseValue = 180000},
-          {Type = RewardType.Item, Id = 27699, Amount = 2}, 
+          {Type = RewardType.Item, Id = 27699, Amount = 2},
         }
       },
       {
@@ -670,8 +670,8 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 34000000},
           {Type = RewardType.Gold, BaseValue = 180000},
-          {Type = RewardType.Item, Id = 27803, Amount = 1}, 
-          {Type = RewardType.Item, Id = 27843, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27803, Amount = 1},
+          {Type = RewardType.Item, Id = 27843, Amount = 1},
         }
       },
       {
@@ -683,8 +683,8 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 34000000},
           {Type = RewardType.Gold, BaseValue = 180000},
-          {Type = RewardType.Item, Id = 27807, Amount = 1}, 
-          {Type = RewardType.Item, Id = 27846, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27807, Amount = 1},
+          {Type = RewardType.Item, Id = 27846, Amount = 1},
         }
       },
       {
@@ -696,17 +696,17 @@ local RewardType = {
           {Type = RewardType.Ranking, BaseValue = 15},
           {Type = RewardType.Experience, BaseValue = 34000000},
           {Type = RewardType.Gold, BaseValue = 180000},
-          {Type = RewardType.Item, Id = 27834, Amount = 1}, 
-          {Type = RewardType.Item, Id = 27867, Amount = 1}, 
+          {Type = RewardType.Item, Id = 27834, Amount = 1},
+          {Type = RewardType.Item, Id = 27867, Amount = 1},
         }
       },
     }
   }
-  
+
   local Cache = {}
-  
+
   local StartupEvent = GlobalEvent("TasksStartUp")
-  
+
   function StartupEvent.onStartup()
     Cache.Ranks = {}
     local ordered = {}
@@ -714,12 +714,12 @@ local RewardType = {
       table.insert(ordered, key)
     end
     table.sort(ordered)
-    
+
     local to = ordered[1] - 1
     for k = 0, to do
       Cache.Ranks[k] = Config.Ranks[ordered[1]]
     end
-  
+
     for i = 1, #ordered do
       local from = ordered[i]
       local to = i == #ordered and ordered[i] or ordered[i + 1] - 1
@@ -728,14 +728,14 @@ local RewardType = {
       end
       Cache.LastRank = from
     end
-  
+
     Cache.Tasks = {}
     for id, task in ipairs(Config.Tasks) do
       for _, name in ipairs(task.Monsters) do
         Cache.Tasks[name] = id
       end
     end
-    
+
     for _, task in ipairs(Config.Tasks) do
       if not task.Outfits then
         task.Outfits = {}
@@ -750,18 +750,18 @@ local RewardType = {
       end
     end
   end
-  
+
   local LoginEvent = CreatureEvent("TasksLogin")
-  
+
   function LoginEvent.onLogin(player)
     player:registerEvent("TasksExtended")
     player:registerEvent("TasksKill")
     player:sendTasksData()
     return true
   end
-  
+
   local ExtendedEvent = CreatureEvent("TasksExtended")
-  
+
   function ExtendedEvent.onExtendedOpcode(player, opcode, buffer)
     if opcode == Config.TasksOpCode then
       local status, json_data =
@@ -773,10 +773,10 @@ local RewardType = {
       if not status then
         return false
       end
-  
+
       local action = json_data.action
       local data = json_data.data
-  
+
       if action == "start" then
         player:startNewTask(data.taskId, data.kills)
       elseif action == "cancel" then
@@ -785,15 +785,15 @@ local RewardType = {
     end
     return true
   end
-  
+
   function Player:openTasksList()
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({action = "open"}))
   end
-  
+
   function Player:closeTasksList()
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({action = "close"}))
   end
-  
+
   function Player:sendTasksData()
     -- #region Send config
     local config = {
@@ -806,7 +806,7 @@ local RewardType = {
     }
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({action = "config", data = config}))
     -- #endregion
-  
+
     -- #region Send tasks list
     local tasks = {}
     for _, task in ipairs(Config.Tasks) do
@@ -817,7 +817,7 @@ local RewardType = {
         outfits = task.Outfits,
         rewards = {}
       }
-  
+
       for _, reward in ipairs(task.Rewards) do
         if reward.Type == RewardType.Points or reward.Type == RewardType.Experience or reward.Type == RewardType.Gold or reward.Type == RewardType.Ranking  then
           table.insert(taskData.rewards, {type = reward.Type, value = reward.BaseValue})
@@ -827,10 +827,10 @@ local RewardType = {
           table.insert(taskData.rewards, {type = reward.Type, desc = reward.Description})
         end
       end
-  
+
       table.insert(tasks, taskData)
     end
-  
+
     local buffer = json.encode({action = "tasks", data = tasks})
     local s = {}
     for i = 1, #buffer, 8191 do
@@ -846,7 +846,7 @@ local RewardType = {
       self:sendExtendedOpcode(Config.TasksOpCode, "E" .. s[#s])
     end
     -- #endregion
-  
+
     -- #region Send active tasks
     local active = {}
     for slot = 1, Config.ActiveTasksLimit do
@@ -867,14 +867,14 @@ local RewardType = {
     end
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({action = "active", data = active}))
     -- #endregion
-  
+
     self:sendTasksPointsUpdate()
     self:sendTasksRankingUpdate()
   end
-  
+
   function Player:sendTaskUpdate(taskId)
     local update = {}
-  
+
     local slot = self:getSlotByTaskId(taskId)
     if not slot then
       update.status = 2 -- abandoned
@@ -882,7 +882,7 @@ local RewardType = {
     else
       local requiredKills = self:getTaskRequiredKills(slot)
       local kills = self:getTaskKills(slot)
-  
+
       if kills < requiredKills then
         update.status = 1 -- in progress
         update.kills = kills
@@ -893,10 +893,10 @@ local RewardType = {
         update.taskId = taskId
       end
     end
-  
+
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({action = "update", data = update}))
   end
-  
+
   function Player:sendTasksPointsUpdate()
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({action = "points", data = self:getTasksPoints()}))
   end
@@ -907,8 +907,8 @@ local RewardType = {
     self:sendExtendedOpcode(Config.TasksOpCode, json.encode({ action = "ranking", data = data }))
 end
 
-  
-  
+
+
   function Player:startNewTask(taskId, kills)
     local task = Config.Tasks[taskId]
     if task then
@@ -917,23 +917,23 @@ end
         self:popupFYI("You can't accept more tasks.")
         return
       end
-  
+
       if self:getSlotByTaskId(taskId) then
         self:popupFYI("You already have this task active.")
         return
       end
-  
+
       kills = math.max(kills, Config.RequiredKills.Min)
       kills = math.min(kills, Config.RequiredKills.Max)
-  
+
       self:setStorageValue(Config.StorageSlot + slot, taskId)
       self:setStorageValue(Config.StorageKillsCurrent + slot, 0)
       self:setStorageValue(Config.StorageKillsSelected + slot, kills)
-  
+
       self:sendTaskUpdate(taskId)
     end
   end
-  
+
   function Player:cancelTask(taskId)
     local task = Config.Tasks[taskId]
     if task then
@@ -946,14 +946,14 @@ end
       end
     end
   end
-  
+
   local KillEvent = CreatureEvent("TasksKill")
-  
+
   function KillEvent.onKill(player, target)
     if not target or target:isPlayer() or target:getMaster() then
       return true
     end
-  
+
     local taskId = Cache.Tasks[target:getName()]
     if taskId then
       local task = Config.Tasks[taskId]
@@ -962,7 +962,7 @@ end
         if party and Config.Party.Enabled then
           local members = party:getMembers()
           table.insert(members, party:getLeader())
-  
+
           local killerPos = player:getPosition()
           for _, member in ipairs(members) do
             if Config.Party.Range > 0 then
@@ -978,22 +978,22 @@ end
         end
       end
     end
-  
+
     return true
   end
-  
+
   function Player:taskProcessKill(taskId)
     local slot = self:getSlotByTaskId(taskId)
     if slot then
       self:addTaskKill(slot)
-  
+
       local requiredKills = self:getTaskRequiredKills(slot)
       local kills = self:getTaskKills(slot)
       if kills >= requiredKills then
         self:setStorageValue(Config.StorageSlot + slot, -1)
         self:setStorageValue(Config.StorageKillsCurrent + slot, -1)
         self:setStorageValue(Config.StorageKillsSelected + slot, -1)
-  
+
         local task = Config.Tasks[taskId]
         for _, reward in ipairs(task.Rewards) do
           self:addTaskReward(reward, requiredKills)
@@ -1003,7 +1003,7 @@ end
       self:sendTaskUpdate(taskId)
     end
   end
-  
+
   function Player:addTaskReward(reward, requiredKills)
     local bonus = math.floor((math.max(0, requiredKills - Config.KillsForBonus) / Config.KillsForBonus) + 0.5)
     if reward.Type == RewardType.Points then
@@ -1055,11 +1055,11 @@ end
         )
     end
   end
-  
+
   function Player:getTaskIdBySlot(slot)
     return math.max(0, self:getStorageValue(Config.StorageSlot + slot))
   end
-  
+
   function Player:getSlotByTaskId(taskId)
     for i = 1, Config.ActiveTasksLimit do
       local slotTask = self:getTaskIdBySlot(i)
@@ -1067,30 +1067,30 @@ end
         return i
       end
     end
-  
+
     return nil
   end
-  
+
   function Player:getTaskKills(slot)
     return math.max(0, self:getStorageValue(Config.StorageKillsCurrent + slot))
   end
-  
+
   function Player:getTaskRequiredKills(slot)
     return math.max(0, self:getStorageValue(Config.StorageKillsSelected + slot))
   end
-  
+
   function Player:addTaskKill(slot)
     self:setStorageValue(Config.StorageKillsCurrent + slot, self:getTaskKills(slot) + 1)
   end
-  
+
   function Player:addTasksPoints(points)
-    local accountId = self:getGuid() 
+    local accountId = self:getGuid()
     db.query(string.format("UPDATE players SET ancestral_points = ancestral_points + %d WHERE id = %d", points, accountId))
     self:sendTasksPointsUpdate()
   end
 
   local ranks_task = {
-    [{1, 40}] = "Rookie", 
+    [{1, 40}] = "Rookie",
     [{41, 100}] = "Bronze",
     [{101, 250}] = "Silver",
     [{251, 470}] = "Gold",
@@ -1105,14 +1105,14 @@ end
     }
 
   function Player:addTaskRankAncestral(count)
-    local accountId = self:getGuid() 
+    local accountId = self:getGuid()
 
     db.query(string.format("UPDATE players SET ancestral_rank_points = ancestral_rank_points + %d WHERE id = %d", count, accountId))
     self:sendTasksRankingUpdate()
 end
 
 function Player:getTaskRankAncestral()
-    local accountId = self:getGuid() 
+    local accountId = self:getGuid()
     local ancestralPoints = 0
     local resultId = db.storeQuery("SELECT `ancestral_rank_points` FROM `players` WHERE `id` = " .. accountId)
     if resultId ~= false then
@@ -1133,10 +1133,10 @@ function Player:getTaskRankAncestral()
     end
     return ret
 end
-  
+
   function Player:getTasksPoints()
     local points = 0
-      local accountId = self:getGuid() 
+      local accountId = self:getGuid()
       local resultId = db.storeQuery("SELECT `ancestral_points` FROM `players` WHERE `id` = " .. accountId)
       if resultId ~= false then
           points = result.getDataInt(resultId, "ancestral_points")
@@ -1144,7 +1144,7 @@ end
       end
       return points
   end
-  
+
   function Player:getTasksRank()
     local rank = self:getTasksPoints()
     if rank >= Cache.LastRank then
@@ -1153,17 +1153,17 @@ end
     self:sendTasksRankingUpdate()
     return Cache.Ranks[rank]
   end
-  
+
   function Player:getFreeTaskSlot()
     for i = 1, Config.ActiveTasksLimit do
       if self:getTaskIdBySlot(i) == 0 then
         return i
       end
     end
-  
+
     return nil
   end
-  
+
   function MonsterType:getOutfitOTC()
     local outfit = self:outfit()
     return {
@@ -1177,7 +1177,7 @@ end
       mount = outfit.lookMount
     }
   end
-  
+
   LoginEvent:type("login")
   LoginEvent:register()
   ExtendedEvent:type("extendedopcode")
@@ -1186,4 +1186,3 @@ end
   KillEvent:register()
   StartupEvent:type("startup")
   StartupEvent:register()
-  

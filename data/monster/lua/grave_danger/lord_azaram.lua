@@ -85,7 +85,7 @@ monster.loot = {
 	{id = "giant sapphire", chance = 7000},
 	{id = "haunted blade", chance = 9000},
 	{id = "huge chunk of crude iron", chance = 4500},
-	{id = "knight armor", chance = 15000},
+	{id = "Knight armor", chance = 15000},
 	{id = "violet gem", minCount = 0, maxCount = 1, chance = 10000},
 	{id = "yellow gem", minCount = 0, maxCount = 1, chance = 10000},
 	{id = 26187, chance = 5000},-- ring of green plasma

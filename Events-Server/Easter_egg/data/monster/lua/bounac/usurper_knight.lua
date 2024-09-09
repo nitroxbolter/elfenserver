@@ -1,7 +1,7 @@
 local mType = Game.createMonsterType("Usurper Knight")
 local monster = {}
 
-monster.description = "a usurper knight"
+monster.description = "a usurper Knight"
 monster.experience = 6900
 monster.outfit = {
 	lookType = 1060,
@@ -80,7 +80,7 @@ monster.loot = {
 	{id = "violet gem", chance = 6002},
 	{id = "gold ingot", chance = 5799},
 	{id = "lion crest", chance = 5697},
-	{id = "knight legs", chance = 5290},
+	{id = "Knight legs", chance = 5290},
 	{id = "great mana potion", chance = 4680},
 	{id = "blue gem", chance = 4171},
 	{id = "green gem", chance = 2238},

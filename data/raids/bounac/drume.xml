@@ -5,6 +5,6 @@
 		<monster name="drume" amount="1" />
 		<monster name="usurper archer" amount="4" />
 		<monster name="usurper warlock" amount="4" />
-		<monster name="usurper knight" amount="4" />
+		<monster name="usurper Knight" amount="4" />
 	</areaspawn>
 </raid>

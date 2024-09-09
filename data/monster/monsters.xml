@@ -54,7 +54,7 @@
 	<monster name="Berserker Chicken" file="monsters/berserker_chicken.xml" />
 	<monster name="Betrayed Wraith" file="monsters/betrayed_wraith.xml" />
 	<monster name="Big Boss Trolliver" file="monsters/big_boss_trolliver.xml" />
-	<monster name="Black Knight" file="monsters/black_knight.xml" />
+	<monster name="Black Knight" file="monsters/black_Knight.xml" />
 	<monster name="Black Sheep" file="monsters/black_sheep.xml" />
 	<monster name="Blazing Fire Elemental" file="monsters/blazing_fire_elemental.xml" />
 	<monster name="Blightwalker" file="monsters/blightwalker.xml" />
@@ -79,7 +79,7 @@
 	<monster name="Breach Brood" file="monsters/Breach Brood.xml" />
 	<monster name="Instable Sparkion" file="monsters/Instable Sparkion.xml" />
 	<monster name="Dread Intruder" file="monsters/Dread Intruder.xml" />
-	<monster name="Dread IntruderSummon" file="monsters/Dread IntruderSummon.xml" />	   
+	<monster name="Dread IntruderSummon" file="monsters/Dread IntruderSummon.xml" />
 	<monster name="Reality Reaver" file="monsters/Reality Reaver.xml" />
 	<monster name="Spark of Destruction" file="monsters/Spark of Destruction.xml" />
 	<monster name="Charger" file="monsters/Charger.xml" />
@@ -92,14 +92,13 @@
 	<monster name="The Hunger" file="monsters/The Hunger.xml" />
 	<monster name="Frenzy" file="monsters/Frenzy.xml" />
 	<monster name="Outburst" file="monsters/Outburst.xml" />
-	<monster name="Greed" file="monsters/Greed.xml" /> 
+	<monster name="Greed" file="monsters/Greed.xml" />
 	<monster name="Ogre Brute" file="monsters/Ogre Brute.xml" />
 	<monster name="Ogre Savage" file="monsters/Ogre Savage.xml" />
 	<monster name="Ogre Shaman" file="monsters/Ogre Shaman.xml" />
 	<monster name="Clomp" file="monsters/Clomp.xml" />
 	<monster name="Hellflayer" file="monsters/Hellflayer.xml" />
 	<monster name="Grimeleech" file="monsters/Grimeleech.xml" />
-	<monster name="Vexclaw" file="monsters/Vexclaw.xml" />
 	<monster name="Omnivora" file="monsters/Omnivora.xml" />
 	<monster name="Werebadger" file="monsters/Werebadger.xml" />
 	<monster name="Wereboar" file="monsters/Wereboar.xml" />
@@ -122,8 +121,8 @@
 	<monster name="Shulgrax" file="monsters/Shulgrax.xml" />
 	<monster name="Tarbaz" file="monsters/Tarbaz.xml" />
 	<monster name="Razzagorn" file="monsters/Razzagorn.xml" />
-	<monster name="The Shatterer" file="monsters/The Shatterer.xml" />	   
-	<monster name="Death Dragon" file="monsters/DeathDragon.xml" />	   		
+	<monster name="The Shatterer" file="monsters/The Shatterer.xml" />
+	<monster name="Death Dragon" file="monsters/DeathDragon.xml" />
 	<monster name="Bones" file="monsters/bones.xml" />
 	<monster name="Minion Of Versperoth" file="monsters/minion of versperoth.xml" />
 	<monster name="Guilt" file="monsters/Guilt.xml" />
@@ -589,7 +588,7 @@
 	<monster name="Rahemos" file="monsters/rahemos.xml" />
 	<monster name="Rat" file="monsters/rat.xml" />
 	<monster name="Red Butterfly" file="monsters/red_butterfly.xml" />
-	<monster name="Renegade Knight" file="monsters/renegade_knight.xml"/>
+	<monster name="Renegade Knight" file="monsters/renegade_Knight.xml"/>
 	<monster name="Renegade Orc" file="monsters/renegade_orc.xml" />
 	<monster name="Retching Horror" file="monsters/retching_horror.xml" />
 	<monster name="Rift Brood" file="monsters/rift_brood.xml" />

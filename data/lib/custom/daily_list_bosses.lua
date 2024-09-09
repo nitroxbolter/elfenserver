@@ -1,8 +1,8 @@
 boostedBossesList = {
-    "Yirkas Blue Scales", 
+    "Yirkas Blue Scales",
     "Drume",
-    "Katex Blood Tongue", 
-    "Utua Stone Sting", 
+    "Katex Blood Tongue",
+    "Utua Stone Sting",
     "Grand Master Oberon",
     "Irgix the Flimsy",
     "Lokathmor",

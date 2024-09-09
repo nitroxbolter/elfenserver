@@ -53,8 +53,8 @@
 	<loot>
 		<item id="2169" chance="3703" /><!-- time ring -->
 		<item name="plate armor" chance="100000" />
-		<item name="knight armor" chance="7692" />
-		<item name="knight legs" chance="5555" />
+		<item name="Knight armor" chance="7692" />
+		<item name="Knight legs" chance="5555" />
 		<item name="jewelled backpack" chance="7692" />
 		<item name="spider silk" chance="50000" />
 		<item name="party hat" chance="1886" />

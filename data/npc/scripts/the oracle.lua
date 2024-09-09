@@ -50,8 +50,8 @@ local config = {
 			{{2120, 1}, {2554, 1}, {7618, 1}, {2456, 1}, {2544, 50}}
 		},
 
-		["knight"] = {
-			text = "A KNIGHT! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!",
+		["Knight"] = {
+			text = "A Knight! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!",
 			vocationId = 4,
 			--equipment dwarven shield, steel axe, brass armor, brass helmet, brass legs scarf
 			{{2525, 1}, {8601, 1}, {2465, 1}, {2460, 1}, {2478, 1}, {2643, 1}, {2661, 1}},
@@ -102,7 +102,7 @@ local function creatureSayCallback(cid, type, msg)
 		local cityTable = config.towns[msg:lower()]
 		if cityTable then
 			town[cid] = cityTable
-			npcHandler:say("IN ".. string.upper(msg) .."! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, {ILLUSIONIST} OR {DRUID}?", cid)
+			npcHandler:say("IN ".. string.upper(msg) .."! AND WHAT PROFESSION HAVE YOU CHOSEN: {Knight}, {PALADIN}, {SORCERER}, {ILLUSIONIST} OR {DRUID}?", cid)
 			npcHandler.topic[cid] = 2
 		else
 			npcHandler:say("IN WHICH TOWN DO YOU WANT TO LIVE: {CARLIN}, {THAIS}, OR {VENORE}?", cid)
@@ -114,7 +114,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 3
 			vocation[cid] = vocationTable.vocationId
 		else
-			npcHandler:say("{KNIGHT}, {PALADIN}, {SORCERER}, {ILLUSIONIST} OR {DRUID}?", cid)
+			npcHandler:say("{Knight}, {PALADIN}, {SORCERER}, {ILLUSIONIST} OR {DRUID}?", cid)
 		end
 	elseif npcHandler.topic[cid] == 3 then
 		if msgcontains(msg, "yes") then
@@ -134,7 +134,7 @@ local function creatureSayCallback(cid, type, msg)
 				backpack:addItem(targetVocation[2][i][1], targetVocation[2][i][2])
 			end
 		else
-			npcHandler:say("THEN WHAT? {KNIGHT}, {PALADIN}, {SORCERER}, {ILLUSIONIST} OR {DRUID}?", cid)
+			npcHandler:say("THEN WHAT? {Knight}, {PALADIN}, {SORCERER}, {ILLUSIONIST} OR {DRUID}?", cid)
 			npcHandler.topic[cid] = 2
 		end
 	end

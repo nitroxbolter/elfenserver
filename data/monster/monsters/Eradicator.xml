@@ -26,8 +26,8 @@
 		<attack name="manadrain" interval="1000" chance="7" range="7" min="-400" max="-700">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="poff" />
-		</attack>		
-		
+		</attack>
+
 		<attack name="strength" interval="1000" chance="9" range="7">
 			<attribute key="shootEffect" value="largerock" />
 			<attribute key="areaEffect" value="energyarea" />
@@ -44,8 +44,8 @@
 		</attack>
 		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="-750" max="-1200">
 			<attribute key="areaEffect" value="purpleenergy" />
-		</attack>		
-		<attack name="renegade knight" interval="2000" chance="30"/>		
+		</attack>
+		<attack name="renegade Knight" interval="2000" chance="30"/>
 		<attack name="choking fear drown" interval="2000" chance="20" />
 		<attack name="death" interval="2000" chance="20" radius="4" target="1" min="-350" max="-700">
 			<attribute key="shootEffect" value="suddendeath" />
@@ -64,24 +64,24 @@
 		</attack>
 		<attack name="strength" interval="1000" chance="8" radius="5" target="0">
 			<attribute key="areaEffect" value="blackspark" />
-		</attack>		
-		
+		</attack>
+
 		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-100" max="-700">
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
-		
+
 	</attacks>
 	<defenses armor="70" defense="70">
-		
+
 		<defense name="healing" interval="6000" chance="25" min="1000" max="2000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 		<defense name="speed" interval="1000" chance="8" speedchange="1901" duration="5000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
-		
-		
+
+
 	</defenses>
 	<elements>
 		<element physicalPercent="20" />
@@ -101,5 +101,5 @@
 	<voices interval="2000" chance="7">
 		<voice sentence="I AM ERADICATOR!" yell="1" />
 	</voices>
-	
+
 </monster>

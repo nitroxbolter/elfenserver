@@ -10,14 +10,14 @@ local config = {
 		[2] = {id = 2464, chance = 4606}, -- Chain Armor
 		[3] = {id = 2465, chance = 3029}, -- Brass Armor
 		[4] = {id = 2463, chance = 1559}, -- Plate Armor
-		[5] = {id = 2476, chance = 595}, -- Knight Armor
+		[5] = {id = 2476, chance = 595}, -- Knight armor
 		[6] = {id = 8891, chance = 283}, -- Paladin Armor
 		[7] = {id = 2487, chance = 49} -- Crown Armor
 	},
 	[9810] = { -- Rusty Armor (Rare)
 		[1] = {id = 2465, chance = 6681}, -- Brass Armor
 		[2] = {id = 2463, chance = 3767}, -- Plate Armor
-		[3] = {id = 2476, chance = 1832}, -- Knight Armor
+		[3] = {id = 2476, chance = 1832}, -- Knight armor
 		[4] = {id = 2487, chance = 177}, -- Crown Armor
 		[5] = {id = 8891, chance = 31}, -- Paladin Armor
 		[6] = {id = 2466, chance = 10} -- Golden Armor
@@ -33,12 +33,12 @@ local config = {
 		[2] = {id = 2648, chance = 4037}, -- Chain Legs
 		[3] = {id = 2478, chance = 2174}, -- Brass Legs
 		[4] = {id = 2647, chance = 1242}, -- Plate Legs
-		[5] = {id = 2477, chance = 186}, -- Knight Legs
+		[5] = {id = 2477, chance = 186}, -- Knight legs
 	},
 	[9813] = { -- Rusty Legs (Rare)
 		[1] = {id = 2478, chance = 6500}, -- Brass Legs
 		[2] = {id = 2647, chance = 3800}, -- Plate Legs
-		[3] = {id = 2477, chance = 200}, -- Knight Legs
+		[3] = {id = 2477, chance = 200}, -- Knight legs
 		[4] = {id = 2488, chance = 52}, -- Crown Legs
 		[5] = {id = 2470, chance = 30} -- Golden Legs
 	},

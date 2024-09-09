@@ -80,7 +80,7 @@ monster.loot = {
 	{id = "silver token", minCount = 0, maxCount = 2, chance = 9500},
 	{id = 26198, chance = 5200},-- collar of blue plasma
 	{id = 26200, chance = 5200},-- collar of red plasma
-	{id = "knight legs", chance = 11000},
+	{id = "Knight legs", chance = 11000},
 	{id = "gold ingot", minCount = 0, maxCount = 1, chance = 10000},
 	{id = "violet gem", minCount = 0, maxCount = 1, chance = 10000},
 	{id = "yellow gem", minCount = 0, maxCount = 1, chance = 10000},

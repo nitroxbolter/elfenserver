@@ -82,7 +82,7 @@ monster.loot = {
 	{id = "divine plate", chance = 450},
 	{id = "diamond sceptre", chance = 2590},
 	{id = "dragon ham", chance = 80000, maxCount = 5},
-	{id = "knight axe", chance = 3000},
+	{id = "Knight axe", chance = 3000},
 	{id = "crystal mace", chance = 1700},
 	{id = "chaos mace", chance = 1930},
 	{id = "crystallized ribs", chance = 2300},

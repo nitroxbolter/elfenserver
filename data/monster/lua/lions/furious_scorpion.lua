@@ -72,7 +72,7 @@ monster.summon = {
 
 monster.loot = {
 	{id = "gold coin", chance = 100000, maxCount = 100},
-	{id = "dagger", chance = 5052},	
+	{id = "dagger", chance = 5052},
 	{id = "sacred tree amulet", chance = 781},
 	{id = "gold ingot", chance = 677, maxCount = 1},
 	{id = "lightning headband", chance = 469},
@@ -83,7 +83,7 @@ monster.loot = {
 	{id = "rainbow quartz", chance = 417},
 	{id = "small diamond", chance = 417},
 	{id = "wand of inferno", chance = 417},
-	{id = "knight armor", chance = 365},
+	{id = "Knight armor", chance = 365},
 	{id = "lightning pendant", chance = 365},
 	{id = "small emerald", chance = 365},
 	{id = "focus cape", chance = 313},

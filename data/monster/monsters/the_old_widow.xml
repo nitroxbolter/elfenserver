@@ -64,11 +64,11 @@
 		<item name="spider silk" countmax="3" chance="87000" />
 		<item name="steel helmet" chance="77000" />
 		<item name="great health potion" countmax="4" chance="67000" />
-		<item name="knight armor" chance="42000" />
+		<item name="Knight armor" chance="42000" />
 		<item name="energy ring" chance="33333" />
 		<item name="stealth ring" chance="33333" />
 		<item id="2169" chance="33333" /><!-- time ring -->
-		<item name="knight legs" chance="26000" />
+		<item name="Knight legs" chance="26000" />
 		<item name="platinum amulet" chance="21000" />
 		<item name="sweet smelling bait" chance="21000" />
 		<item name="spool of yarn" chance="10000" />

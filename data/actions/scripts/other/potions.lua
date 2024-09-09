@@ -30,11 +30,11 @@ local potions = {
 		condition = berserk,
 		vocations = {4, 8},
 		effect = CONST_ME_MAGIC_RED,
-		description = "Only knights may drink this potion.",
+		description = "Only Knights may drink this potion.",
 		text = "You feel stronger."
 	},
 	[7440] = { -- mastermind potion
-		condition = mastermind, 
+		condition = mastermind,
 		vocations = {1, 2, 5, 6, 9, 10},
 		effect = CONST_ME_MAGIC_BLUE,
 		description = "Only sorcerers, druids and illusionists may drink this potion.",
@@ -52,28 +52,28 @@ local potions = {
 		vocations = {3, 4, 7, 8},
 		level = 50,
 		flask = 7634,
-		description = "Only knights and paladins of level 50 or above may drink this fluid."
+		description = "Only Knights and paladins of level 50 or above may drink this fluid."
 	},
 	[7589] = { -- strong mana potion
 		mana = {115, 185},
 		vocations = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10},
 		level = 50,
 		flask = 7634,
-		description = "Only sorcerers, druids, paladins, knights and illusionists of level 50 or above may drink this fluid."
+		description = "Only sorcerers, druids, paladins, Knights and illusionists of level 50 or above may drink this fluid."
 	},
 	[7590] = { -- great mana potion
 		mana = {150, 250},
 		vocations = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10},
 		level = 80,
 		flask = 7635,
-		description = "Only druids, sorcerers, paladins, knights and illusionists of level 80 or above may drink this fluid."
+		description = "Only druids, sorcerers, paladins, Knights and illusionists of level 80 or above may drink this fluid."
 	},
 	[7591] = { -- great health potion
 		health = {425, 575},
 		vocations = {4, 8},
 		level = 80,
 		flask = 7635,
-		description = "Only knights of level 80 or above may drink this fluid."
+		description = "Only Knights of level 80 or above may drink this fluid."
 	},
 	[7618] = { -- health potion
 		health = {125, 175},
@@ -96,7 +96,7 @@ local potions = {
 		vocations = {4, 8},
 		level = 130,
 		flask = 7635,
-		description = "Only knights of level 130 or above may drink this fluid."
+		description = "Only Knights of level 130 or above may drink this fluid."
 	},
 	[8474] = { -- antidote potion
 		antidote = true,
@@ -111,7 +111,7 @@ local potions = {
 		vocations = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10},
 		level = 130,
 		flask = 7635,
-		description = "Only druids, sorcerers, paladins, knights and illusionists of level 130 or above may drink this fluid."
+		description = "Only druids, sorcerers, paladins, Knights and illusionists of level 130 or above may drink this fluid."
 	},
 	[26030] = { -- supreme spirit potion
 		health = {420, 580},
@@ -126,25 +126,25 @@ local potions = {
 		vocations = {4, 8},
 		level = 200,
 		flask = 7635,
-		description = "Only knights of level 200 or above may drink this fluid."
+		description = "Only Knights of level 200 or above may drink this fluid."
 	},
 	[26733] = { -- nimble life potion
 		health = {515, 685},
 		vocations = {3, 4, 7, 8},
 		level = 100,
-		description = "Only knights and paladins of level 100 or above may drink this fluid."
+		description = "Only Knights and paladins of level 100 or above may drink this fluid."
 	},
 	[26734] = { -- hazel life potion
 		health = {750, 920},
 		vocations = {3, 4, 7, 8},
 		level = 150,
-		description = "Only knights and paladins of level 150 or above may drink this fluid."
+		description = "Only Knights and paladins of level 150 or above may drink this fluid."
 	},
 	[26735] = { -- tumble life potion
 		health = {890, 1050},
 		vocations = {3, 4, 7, 8},
 		level = 200,
-		description = "Only knights of level 200 or above may drink this fluid."
+		description = "Only Knights of level 200 or above may drink this fluid."
 	},
 	[26736] = { -- nimble mana potion
 		mana = {570, 775},
@@ -168,25 +168,25 @@ local potions = {
 		health = {1000, 1180},
 		vocations = {3, 4, 7, 8},
 		level = 250,
-		description = "Only knights and paladins of level 250 or above may drink this fluid."
+		description = "Only Knights and paladins of level 250 or above may drink this fluid."
 	},
 	[28077] = { -- Advanced Health potion
 		health = {1150, 1300},
 		vocations = {3, 4, 7, 8},
 		level = 350,
-		description = "Only knights and paladins of level 350 or above may drink this fluid."
+		description = "Only Knights and paladins of level 350 or above may drink this fluid."
 	},
 	[28078] = { -- Divine health potion
 		health = {1300, 1450},
 		vocations = {4, 8},
 		level = 500,
-		description = "Only knights of level 500 or above may drink this fluid."
+		description = "Only Knights of level 500 or above may drink this fluid."
 	},
 	[28079] = { -- Mythic Health potion
 		health = {1500, 1650},
 		vocations = {4, 8},
 		level = 700,
-		description = "Only knights of level 700 or above may drink this fluid."
+		description = "Only Knights of level 700 or above may drink this fluid."
 	},
 	[28080] = { -- Exalted Mana potion
 		mana = {1050, 1150},

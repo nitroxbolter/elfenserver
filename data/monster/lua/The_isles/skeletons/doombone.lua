@@ -77,7 +77,7 @@ monster.loot = {
 	{id = "violet gem", chance = 74560},
 	{id = "spellbook of warding", chance = 41920},
 	{id = "Spiked Squelcher", chance = 2200},
-	{id = "Knight Armor", chance = 1980},
+	{id = "Knight armor", chance = 1980},
 	{id = "Golden Armor", chance = 310},
 	{id = "Mastermind Shield", chance = 310},
 	{id = "crystal crossbow", chance = 270},
@@ -94,7 +94,7 @@ monster.loot = {
 	{id = "rare velganos card", chance = 1000},
 	{id = "bronze deck", chance = 1000},
 	{id = "silver deck", chance = 350},
-	
+
 }
 
 monster.attacks = {

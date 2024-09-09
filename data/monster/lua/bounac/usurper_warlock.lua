@@ -84,7 +84,7 @@ monster.loot = {
 	{id = "magma monocle", chance = 1778},
 	{id = "wand of cosmic energy", chance = 1778},
 	{id = "underworld rod", chance = 1333},
-	{id = "knight legs", chance = 1111},
+	{id = "Knight legs", chance = 1111},
 	{id = "wand of starstorm", chance = 667}
 }
 

@@ -57,7 +57,7 @@
 		<item name="gold coin" countmax="42" chance="10000" />
 		<item name="platinum coin" countmax="2" chance="9920" />
 		<item name="war hammer" chance="1010" />
-		<item name="knight armor" chance="870" />
+		<item name="Knight armor" chance="870" />
 		<item name="spiked squelcher" chance="160" />
 		<item name="strong health potion" countmax="2" chance="5000" />
 		<item name="strong mana potion" countmax="2" chance="5000" />

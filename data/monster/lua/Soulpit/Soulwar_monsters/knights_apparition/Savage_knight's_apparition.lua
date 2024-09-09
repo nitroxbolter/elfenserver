@@ -1,7 +1,7 @@
 local mType = Game.createMonsterType("Savage Knight's Apparition")
 local monster = {}
 
-monster.description = "a Savage knight's apparition"
+monster.description = "a Savage Knight's apparition"
 monster.experience = 28600
 monster.outfit = {
 	lookType = 131,
@@ -67,7 +67,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,	
+	chance = 10,
 	{text = "I am you. Just better!", yell = false},
 	{text = "I'll take your place when you are gone.", yell = false}
 }

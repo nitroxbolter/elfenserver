@@ -86,7 +86,7 @@ monster.loot = {
 	{id = "gemmed figurine", chance = 4189},
 	{id = "white pearl", chance = 3514},
 	{id = "glacier shoes", chance = 2432},
-	{id = "knight armor", chance = 1892},
+	{id = "Knight armor", chance = 1892},
 	{id = "coral brooch", chance = 1757},
 	{id = "assassin dagger", chance = 1622},
 	{id = "ornate crossbow", chance = 946},

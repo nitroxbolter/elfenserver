@@ -1,10 +1,10 @@
 --- Script created by
---- ______     __         ______     __  __   
----/\  __ \   /\ \       /\  ___\   /\_\_\_\  
----\ \  __ \  \ \ \____  \ \  __\   \/_/\_\/_ 
+--- ______     __         ______     __  __
+---/\  __ \   /\ \       /\  ___\   /\_\_\_\
+---\ \  __ \  \ \ \____  \ \  __\   \/_/\_\/_
 --- \ \_\ \_\  \ \_____\  \ \_____\   /\_\/\_\
 ---  \/_/\/_/   \/_____/   \/_____/   \/_/\/_/
-                                           
+
 
 
 
@@ -47,8 +47,8 @@ function createPet(cid, petName)
     pet = Game.createMonster("Sorcerer Familiar", player:getPosition())
   elseif vocationId == VOCATION.ID.DRUID or vocationBaseId == VOCATION.ID.ELDER_DRUID then
     pet = Game.createMonster("Druid Familiar", player:getPosition())
-  elseif vocationId == VOCATION.ID.KNIGHT or vocationBaseId == VOCATION.ID.ELITE_KNIGHT then
-    pet = Game.createMonster("Knight Familiar", player:getPosition())
+  elseif vocationId == VOCATION.ID.Guerreiro or vocationBaseId == VOCATION.ID.Barbaro then
+    pet = Game.createMonster("Guerreiro Familiar", player:getPosition())
   elseif vocationId == VOCATION.ID.PALADIN or vocationBaseId == VOCATION.ID.ROYAL_PALADIN then
     pet = Game.createMonster("Paladin Familiar", player:getPosition())
   elseif vocationId == VOCATION.ID.ILLUSIONIST or vocationBaseId == VOCATION.ID.ARCH_ILLUSIONIST then
@@ -63,7 +63,7 @@ function createPet(cid, petName)
     pet:registerEvent('SummonFollow')
     local petStorageValue = 655421 + player:getAccountId()
     pet:setStorageValue(tostring(petStorageValue), pet:getId())
-    pet:setStorageValue(pet_experience, 0) 
+    pet:setStorageValue(pet_experience, 0)
     pet:setStorageValue(pet_level, 1)
     player:setStorageValue(pet_id, pet:getId())
     player:setStorageValue(pet_name, petName)
@@ -81,7 +81,7 @@ local pet_storage_level = 633452
 function loadPlayerPet(player)
   local petId = player:getStorageValue(pet_id)
   if petId > 0 then
-    local pet = Creature(petId)  
+    local pet = Creature(petId)
     if pet then
       local accountId = player:getAccountId()
       local query = db.storeQuery("SELECT `pet_experience`, `pet_level` FROM `players` WHERE `id` = " .. player:getGuid())
@@ -96,9 +96,9 @@ function loadPlayerPet(player)
       end
     end
   else
-    return true  
+    return true
   end
-  return nil  
+  return nil
 end
 
 
@@ -119,8 +119,8 @@ storageGet.onSay = function(player, words)
     loadPlayerPet(player)
     local vocation = player:getVocation()
     local petName = ""
-    if vocation == VOCATION.ID.KNIGHT or vocation == VOCATION.ID.ELITE_KNIGHT then
-      petName = "Knight Familiar"
+    if vocation == VOCATION.ID.Guerreiro or vocation == VOCATION.ID.Barbaro then
+      petName = "Guerreiro Familiar"
     elseif vocation == VOCATION.ID.SORCERER or vocation == VOCATION.ID.MASTER_SORCERER then
       petName = "Sorcerer Familiar"
     elseif vocation == VOCATION.ID.DRUID or vocation == VOCATION.ID.ELDER_DRUID then
@@ -153,20 +153,20 @@ end
 petLevelAction.onSay = function(player, words)
   if words == "!familiarlevel" then
     local pet = loadPlayerPet(player)
-    
+
     if pet then
       local petLevel = pet:getStorageValue(pet_level)
       local petExperience = pet:getStorageValue(pet_experience)
       local petNextLevelExperience = calculateNextLevelExperience(petLevel)
-      
+
       player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("Your Familiar is currently level %d.\nYour Familiar has experience %d/%d.", petLevel, petExperience, petNextLevelExperience))
     else
       player:sendTextMessage(MESSAGE_INFO_DESCR, "You don't have a Familiar summoned.")
     end
-    
+
     return false
   end
-  
+
   return true
 end
 

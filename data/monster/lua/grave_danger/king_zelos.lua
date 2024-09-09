@@ -114,7 +114,7 @@ monster.voices = {
 	chance = 10,
 	{text = "Feel the power of death unleashed!", yell = false},
 	{text = "I will rule again and my realm of death will span the world!", yell = false},
-	{text = "My lich-knights will conquer this world for me!", yell = false},
+	{text = "My lich-Knight will conquer this world for me!", yell = false},
 }
 
 mType.onThink = function(monster, interval)

@@ -77,7 +77,7 @@
 		<item name="spiked squelcher" chance="50" />
 		<item name="strong health potion" countmax="3" chance="11050" />
 		<item name="great mana potion" countmax="2" chance="10770" />
-		<item name="fiery knight axe" chance="770" />
+		<item name="fiery Knight axe" chance="770" />
 		<item name="terra legs" chance="50" />
 		<item name="terra boots" chance="880" />
 		<item name="small topaz" chance="9780" />

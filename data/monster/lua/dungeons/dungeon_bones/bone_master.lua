@@ -53,7 +53,7 @@ monster.loot = {
 	{id = 7591, chance = 9700, maxCount = 2}, -- great health potion
 	{id = "boots of haste", chance = 337},
 	{id = "war axe", chance = 95},
-	{id = "knight legs", chance = 961},
+	{id = "Knight legs", chance = 961},
 	{id = "ancient shield", chance = 990},
 	{id = "demonic essence", chance = 10000},
 	{id = "skeleton decoration", chance = 337},

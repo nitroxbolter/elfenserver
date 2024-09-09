@@ -21,10 +21,10 @@ local function creatureSayCallback(cid, type, msg)
     if msgcontains(msg, "blessing") or msgcontains(msg, "bless") then
         if player then
             npcHandler:say("Do you want to receive the blessing of the inquisition - which means all five available blessings - for " .. totalBlessPrice .. " gold?", cid)
-            npcHandler.topic[cid] = 1 
+            npcHandler.topic[cid] = 1
         else
             npcHandler:say("You cannot get this blessing unless you have completed The Inquisition Quest.", cid)
-            npcHandler.topic[cid] = 0 
+            npcHandler.topic[cid] = 0
         end
     elseif npcHandler.topic[cid] == 1 then
         if player:getBlessings() >= 5 then
@@ -45,7 +45,7 @@ local function creatureSayCallback(cid, type, msg)
 end
 
 keywordHandler:addKeyword({'paladin'}, StdModule.say, {npcHandler = npcHandler, text = 'It\'s a shame that only a few paladins still use their abilities to further the cause of the gods of good. Too many paladins have become selfish and greedy.'})
-keywordHandler:addKeyword({'knight'}, StdModule.say, {npcHandler = npcHandler, text = 'Nowadays, most knights seem to have forgotten the noble cause to which all knights were bound in the past. Only a few have remained pious, serve the gods and follow their teachings.'})
+keywordHandler:addKeyword({'Knight'}, StdModule.say, {npcHandler = npcHandler, text = 'Nowadays, most Knights seem to have forgotten the noble cause to which all Knights were bound in the past. Only a few have remained pious, serve the gods and follow their teachings.'})
 keywordHandler:addKeyword({'sorcerer'}, StdModule.say, {npcHandler = npcHandler, text = 'Those who wield great power have to resist great temptations. We have the burden to eliminate all those who give in to the temptations.'})
 keywordHandler:addKeyword({'druid'}, StdModule.say, {npcHandler = npcHandler, text = 'The druids here still follow the old rules. Sadly, the druids of Carlin have left the right path in the last years.'})
 

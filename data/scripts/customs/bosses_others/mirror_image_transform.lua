@@ -15,7 +15,7 @@ function mirrorImageTransform.onHealthChange(creature, attacker, primaryDamage, 
 			newForm = "Paladin's Apparition"
 			condition:setOutfit({ lookType = 129, lookHead = 57, lookBody = 42, lookLegs = 114, lookFeet = 114, lookAddons = 0, lookMount = 0 })
 		elseif attacker:isKnight() then
-			newForm = "Knight's Apparition"
+			newForm = "Knight's apparition"
 			condition:setOutfit({ lookType = 131, lookHead = 19, lookBody = 76, lookLegs = 74, lookFeet = 114, lookAddons = 0, lookMount = 0 })
 		elseif attacker:isIllusionist() then
 			newForm = "Illusionist's Apparition"

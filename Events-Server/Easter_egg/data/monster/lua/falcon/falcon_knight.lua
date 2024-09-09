@@ -1,7 +1,7 @@
 local mType = Game.createMonsterType("Falcon Knight")
 local monster = {}
 
-monster.description = "a falcon knight"
+monster.description = "a falcon Knight"
 monster.experience = 5985
 monster.outfit = {
 	lookType = 1001,
@@ -80,7 +80,7 @@ monster.loot = {
 	{id = "titan axe", chance = 3000},
 	{id = 7633, chance = 3000}, -- giant shimmering pearl (brown)
 	{id = "spiked squelcher", chance = 2200},
-	{id = "knight armor", chance = 1980},
+	{id = "Knight armor", chance = 1980},
 	{id = "falcon crest", chance = 1250},
 	{id = "war axe", chance = 1230},
 	{id = "violet gem", chance = 1060},

@@ -53,7 +53,7 @@
 		<voice sentence="SORCERERS MUST DIE!" yell="1" />
 		<voice sentence="DRUIDS MUST DIE!" yell="1" />
 		<voice sentence="PALADINS MUST DIE!" yell="1" />
-		<voice sentence="KNIGHTS MUST DIE!" yell="1" />
+		<voice sentence="Knight MUST DIE!" yell="1" />
 		<voice sentence="GET OVER HERE!" yell="1" />
 		<voice sentence="CRUSH THEM ALL!" yell="1" />
 		<voice sentence="VARIPHOR WILL RULE!" yell="1" />

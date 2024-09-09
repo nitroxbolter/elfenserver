@@ -1,16 +1,16 @@
 -- Script maded by
 
---            _                   _             _     _      _    _          _        _                 _______   
---           / /\                _\ \          /\ \ /_/\    /\ \ /\ \    _ / /\   _  /\ \              / ___  /\  
---          / /  \              /\__ \        /  \ \\ \ \   \ \_\\ \ \  /_/ / /  /\_\\ \ \            / /\__\ \ \ 
---         / / /\ \            / /_ \_\      / /\ \ \\ \ \__/ / / \ \ \ \___\/  / / / \ \ \          / / /   \_\/ 
---        / / /\ \ \          / / /\/_/     / / /\ \_\\ \__ \/_/  / / /  \ \ \ / / /   \ \ \        / / /         
---       / / /  \ \ \        / / /         / /_/_ \/_/ \/_/\__/\  \ \ \   \_\ \\ \ \____\ \ \       \ \ \         
---      / / /___/ /\ \      / / /         / /____/\     _/\/__\ \  \ \ \  / / / \ \________\ \       \ \ \        
---     / / /_____/ /\ \    / / / ____    / /\____\/    / _/_/\ \ \  \ \ \/ / /   \/________/\ \       \ \ \       
---    / /_________/\ \ \  / /_/_/ ___/\ / / /______   / / /   \ \ \  \ \ \/ /              \ \ \  ____/ / /       
---   / / /_       __\ \_\/_______/\__\// / /_______\ / / /    /_/ /   \ \  /                \ \_\/_____/ /        
---   \_\___\     /____/_/\_______\/    \/__________/ \/_/     \_\/     \_\/                  \/_/\_____\/         
+--            _                   _             _     _      _    _          _        _                 _______
+--           / /\                _\ \          /\ \ /_/\    /\ \ /\ \    _ / /\   _  /\ \              / ___  /\
+--          / /  \              /\__ \        /  \ \\ \ \   \ \_\\ \ \  /_/ / /  /\_\\ \ \            / /\__\ \ \
+--         / / /\ \            / /_ \_\      / /\ \ \\ \ \__/ / / \ \ \ \___\/  / / / \ \ \          / / /   \_\/
+--        / / /\ \ \          / / /\/_/     / / /\ \_\\ \__ \/_/  / / /  \ \ \ / / /   \ \ \        / / /
+--       / / /  \ \ \        / / /         / /_/_ \/_/ \/_/\__/\  \ \ \   \_\ \\ \ \____\ \ \       \ \ \
+--      / / /___/ /\ \      / / /         / /____/\     _/\/__\ \  \ \ \  / / / \ \________\ \       \ \ \
+--     / / /_____/ /\ \    / / / ____    / /\____\/    / _/_/\ \ \  \ \ \/ / /   \/________/\ \       \ \ \
+--    / /_________/\ \ \  / /_/_/ ___/\ / / /______   / / /   \ \ \  \ \ \/ /              \ \ \  ____/ / /
+--   / / /_       __\ \_\/_______/\__\// / /_______\ / / /    /_/ /   \ \  /                \ \_\/_____/ /
+--   \_\___\     /____/_/\_______\/    \/__________/ \/_/     \_\/     \_\/                  \/_/\_____\/
 
 
 --- Do not touch if you dont know what you are doing ---
@@ -21,7 +21,7 @@ local cardsAllowed = {
     [27484] = {value = DeckSystem.Cards.EpicErasmo, text = "Enhanced Exori with Death"},
     [27485] = {value = DeckSystem.Cards.MythicErasmo, text = "Enhanced Exori with Energy"},
     [27486] = {value = DeckSystem.Cards.CommonDemetar, text = "Enchanced Exevo Tera Hur with Fire"},
-    [27487] = {value = DeckSystem.Cards.RareDemetar, text = "Enhanced Exevo Tera Hur with Holy"}, 
+    [27487] = {value = DeckSystem.Cards.RareDemetar, text = "Enhanced Exevo Tera Hur with Holy"},
     [27488] = {value = DeckSystem.Cards.EpicDemetar, text = "Enhanced Exevo Tera Hur with Death"},
     [27489] = {value = DeckSystem.Cards.MythicDemetar, text = "Enhanced Exevo Tera Hur with Energy"},
     [27490] = {value = DeckSystem.Cards.CommonKaishuter, text = "Enhanced Exevo vis hur with Holy"},
@@ -136,19 +136,19 @@ function deckSystem.onUse(player, item, fromPosition, target, toPosition, isHotk
                         return true
                     end
                     if currentValue == 1 then
-                        player:setStorageValue(card.value, 0) 
+                        player:setStorageValue(card.value, 0)
                         playSound(player, "deck_card.ogg")
                     else
-                        player:setStorageValue(card.value, 1) 
+                        player:setStorageValue(card.value, 1)
                         local additionalStorage = 110017 + (itemID - 27547)
                         if player:getStorageValue(additionalStorage) == 0 or player:getStorageValue(additionalStorage) == -1 then
                             player:setStorageValue(additionalStorage, 1)
                             playSound(player, "deck_card.ogg")
                         end
-                        
+
                     end
                     local statusText = currentValue == 1 and "Deactivated" or "Activated"
-                    player:sendTextMessage(MESSAGE_INFO_DESCR, "You have " .. statusText .. " the card: " .. card.text .. ".")  
+                    player:sendTextMessage(MESSAGE_INFO_DESCR, "You have " .. statusText .. " the card: " .. card.text .. ".")
                     playSound(player, "deck_card.ogg")
                 end
             end

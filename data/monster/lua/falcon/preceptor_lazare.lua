@@ -75,7 +75,7 @@ monster.loot = {
 	{id = "small emerald", chance = 100000, maxCount = 5},
 	{id = "small diamond", chance = 100000, maxCount = 4},
 	{id = "small amethyst", chance = 100000, maxCount = 3},
-	{id = "knight armor", chance = 3100},
+	{id = "Knight armor", chance = 3100},
 	{id = "golden armor", chance = 2200},
 	{id = "patch of fine cloth", chance = 1800, maxCount = 3},
 	{id = "violet gem", chance = 1800},
